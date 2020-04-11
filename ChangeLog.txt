@@ -1,4 +1,12 @@
 
+Luciole 0.2 [2020-04-10]
+-------------------------------
+
+	- New Radial Decoupler
+	- Updated craft files
+	- Fx not used removed
+	- Fx fix at low throttle
+	- Set a new sound effect
 
 Luciole 0.1 [2020-04-10]
 -------------------------------
