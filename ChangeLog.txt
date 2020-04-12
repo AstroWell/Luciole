@@ -4,6 +4,9 @@ Luciole 0.2 [2020-04-10]
 
 	- New Radial Decoupler
 	- New Little Fin for a better control
+	- New 0.3125 LFO tank for liquid booster (3 sizes)
+	- New 0.3125 NoseCone
+	- Navier texture update
 	- LFO Tank mass/cost ratio adjusted
 	- Updated craft files
 	- Fx not used removed
