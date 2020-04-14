@@ -6,6 +6,8 @@ Luciole 0.2 [2020-04-10]
 	- New Little Fin for a better control
 	- New 0.3125 LFO tank for liquid booster (3 sizes)
 	- New 0.3125 NoseCone
+	- New 0.3125 Probe
+	- New CubeSat
 	- Navier texture update
 	- LFO Tank mass/cost ratio adjusted
 	- Updated craft files
@@ -14,6 +16,7 @@ Luciole 0.2 [2020-04-10]
 	- Set a new sound effect
 	- Reduced Fairing Drag
 	- Reduced Drag on the nose cone
+	- Reduced ISP of All engines
 
 Luciole 0.1 [2020-04-10]
 -------------------------------
