@@ -8,6 +8,7 @@ Luciole 0.2 [2020-04-10]
 	- New 0.3125 NoseCone
 	- New 0.3125 Probe
 	- New CubeSat
+	- New Payload Adapter
 	- Navier texture update
 	- LFO Tank mass/cost ratio adjusted
 	- Updated craft files
