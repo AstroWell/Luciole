@@ -1,5 +1,5 @@
 
-Luciole 0.2 [2020-04-10]
+Luciole 0.2 [2020-04-15]
 -------------------------------
 
 	- New Radial Decoupler
@@ -18,6 +18,7 @@ Luciole 0.2 [2020-04-10]
 	- Reduced Fairing Drag
 	- Reduced Drag on the nose cone
 	- Reduced ISP of All engines
+	- TechTree Review
 
 Luciole 0.1 [2020-04-10]
 -------------------------------
