@@ -1,5 +1,5 @@
 
-Luciole 0.2 [2020-04-15]
+Luciole 1.1 [2020-04-16]
 -------------------------------
 
 	- New Radial Decoupler
@@ -20,7 +20,7 @@ Luciole 0.2 [2020-04-15]
 	- Reduced ISP of All engines
 	- TechTree Review
 
-Luciole 0.1 [2020-04-10]
+Luciole 1.0 [2020-04-10]
 -------------------------------
 
 	- Initial upload
