@@ -3,6 +3,9 @@ Luciole 1.2 [2020--]
 -------------------------------
 
 	- Fix Missing name for 0.3125 fuel tank
+	- Fix of name variant error
+	- Probes cost adjusted
+	- Kickstage cost adjusted
 	
 Luciole 1.1 [2020-04-16]
 -------------------------------
