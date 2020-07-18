@@ -1,8 +1,14 @@
+Luciole 1.3 [2020-07-04]
+-------------------------------
+
+	- "Bot" Probe have now a SAS Level = 2
+	- Fix CubeSat 3U theme color icon
 
 Luciole 1.2.1 [2020-07-04]
 -------------------------------
 
 	- Fix for Fairings in KSP 1.10
+	- Firefly Kickstage is now in probe category	
 	
 Luciole 1.2.0 [2020-04-24]
 -------------------------------
