@@ -1,17 +1,19 @@
 Luciole 1.3 [2020-07-04]
--------------------------------
+------------------------
 
-	- "Bot" Probe have now a SAS Level = 2
+	- "Bot" Probe have now a SAS Level = 3
 	- Fix CubeSat 3U theme color icon
+	- New embbed Science "Student Experiment" for CubeSat 3U
+	- New embbed Science "Customer Experiment" for "Bot" ProbeSat
 
 Luciole 1.2.1 [2020-07-04]
--------------------------------
+--------------------------
 
 	- Fix for Fairings in KSP 1.10
 	- Firefly Kickstage is now in probe category	
 	
 Luciole 1.2.0 [2020-04-24]
--------------------------------
+--------------------------
 
 	- Fix Missing name for 0.3125 fuel tank
 	- Fix of name variant error
@@ -21,7 +23,7 @@ Luciole 1.2.0 [2020-04-24]
 	- Added a Fairing to the Engine mount
 	
 Luciole 1.1.0 [2020-04-16]
--------------------------------
+--------------------------
 
 	- New Radial Decoupler
 	- New Little Fin for a better control
@@ -42,6 +44,6 @@ Luciole 1.1.0 [2020-04-16]
 	- TechTree Review
 
 Luciole 1.0 [2020-04-10]
--------------------------------
+------------------------
 
 	- Initial upload
