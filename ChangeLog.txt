@@ -5,6 +5,7 @@ Luciole 1.3 [2020-07-04]
 	- Fix CubeSat 3U theme color icon
 	- New embbed Science "Student Experiment" for CubeSat 3U
 	- New embbed Science "Customer Experiment" for "Bot" ProbeSat
+	- Reduced sound engine when they "activate"
 
 Luciole 1.2.1 [2020-07-04]
 --------------------------
