@@ -6,6 +6,8 @@ Luciole 1.3 [2020-07-]
 	- New embbed Science "Student Experiment" for CubeSat 3U
 	- New embbed Science "Customer Experiment" for "Bot" ProbeSat
 	- New Antenna
+	- New 6U "Ker" CubeSat
+	- New Craft Files
 	- Reduced sound engine when they "activate"
 	- Reduced Probes Com Range
 
