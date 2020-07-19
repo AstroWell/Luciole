@@ -1,11 +1,13 @@
-Luciole 1.3 [2020-07-04]
+Luciole 1.3 [2020-07-]
 ------------------------
 
 	- "Bot" Probe have now a SAS Level = 3
 	- Fix CubeSat 3U theme color icon
 	- New embbed Science "Student Experiment" for CubeSat 3U
 	- New embbed Science "Customer Experiment" for "Bot" ProbeSat
+	- New Antenna
 	- Reduced sound engine when they "activate"
+	- Reduced Probes Com Range
 
 Luciole 1.2.1 [2020-07-04]
 --------------------------
