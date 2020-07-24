@@ -10,7 +10,7 @@ Luciole 1.3 [2020-07-]
 	- New UHF Antenna
 	- New Band relay
 	- New 6U "Ker" CubeSat
-	- 3 new solar panel
+	- 4 new solar panel
 	- New Craft Files
 	- Reduced sound engine when they "activate"
 	- Reduced Probes Com Range & set to internal
