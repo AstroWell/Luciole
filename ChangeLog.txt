@@ -1,4 +1,4 @@
-Luciole 1.3 [2020-07-]
+Luciole 1.3 [2020-07-25]
 ------------------------
 
 	- "Bot" Probe have now a SAS Level = 3
