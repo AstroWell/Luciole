@@ -1,5 +1,5 @@
 ship = Luciole Light
-version = 1.10.0
+version = 1.10.1
 description = 
 type = VAB
 size = 0.879610419,6.95687103,0.860817909
@@ -16,7 +16,7 @@ PART
 {
 	part = .Luciole.cubesat.6u.0625_4294041822
 	partName = Part
-	persistentId = 3417194565
+	persistentId = 2116880609
 	pos = 0.0206278712,11.9493217,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0.0206278712,11.9493217,-0.00798392296
@@ -40,6 +40,10 @@ PART
 	modSize = 0,0,0
 	link = .Luciole.cubesat.6u.0625_4294041468
 	link = .Luciole.Decoupler.0125_4293963540
+	link = .Luciole.SolarPanel.2_4293970824
+	link = .Luciole.SolarPanel.2_4293970484
+	link = .Luciole.MarCO.UHF_4293963656
+	link = .Luciole.MarCO.UHF_4293962838
 	attN = top,.Luciole.cubesat.6u.0625_4294041468_0|0.222158|0_0|1|0_0|0.222158|0_0|1|0
 	attN = bottom,.Luciole.Decoupler.0125_4293963540_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
 	EVENTS
@@ -196,7 +200,7 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
+		currentRotation = (0, 0.707106829, 0, 0.707106829)
 		storedAnimationTime = 0
 		storedAnimationSpeed = 0
 		deployState = EXTENDED
@@ -274,7 +278,7 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
+		currentRotation = (0, -0.707106829, 0, 0.707106829)
 		storedAnimationTime = 0
 		storedAnimationSpeed = 0
 		deployState = EXTENDED
@@ -313,7 +317,7 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
+		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
 		storedAnimationSpeed = 0
 		deployState = EXTENDED
@@ -1058,10 +1062,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = solarPanels4_4294025230
-	link = solarPanels4_4294024072
 	link = .Luciole.Nano.Antenna_4294020432
 	link = sensorThermometer_4294013168
+	link = .Luciole.SolarPanel.2_4293971730
+	link = .Luciole.SolarPanel.2_4293971550
 	attN = top,Null_0_0|0.222158|0_0|1|0_0|0.222158|0_0|1|0
 	attN = bottom,.Luciole.cubesat.6u.0625_4294041822_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
 	EVENTS
@@ -1218,7 +1222,7 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
+		currentRotation = (0, 0.707106829, 0, 0.707106829)
 		storedAnimationTime = 0
 		storedAnimationSpeed = 0
 		deployState = EXTENDED
@@ -1296,7 +1300,7 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
+		currentRotation = (0, -0.707106829, 0, 0.707106829)
 		storedAnimationTime = 0
 		storedAnimationSpeed = 0
 		deployState = EXTENDED
@@ -1335,7 +1339,7 @@ PART
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
-		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
+		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
 		storedAnimationSpeed = 0
 		deployState = EXTENDED
@@ -1547,188 +1551,6 @@ PART
 		hideFlow = False
 		isVisible = True
 		flowMode = Both
-	}
-}
-PART
-{
-	part = solarPanels4_4294025230
-	partName = Part
-	persistentId = 4046728232
-	pos = 0.0206278805,12.4338884,0.0239097401
-	attPos = 9.95446392E-09,-0.012295723,-0.0500784665
-	attPos0 = 0,0.0525455475,0.0819721296
-	rot = 4.32978163E-17,-0.707106829,4.32978163E-17,-0.707106829
-	attRot = 0,0,0,1
-	attRot0 = -4.32978096E-17,0.707106709,-4.32978229E-17,0.707106948
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = solarPanels4_4294024072
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041468,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (-0.5, -0.5, -0.5, 0.5)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		deployState = RETRACTED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = Custom01
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = solarPanels4_4294024072
-	partName = Part
-	persistentId = 1850809402
-	pos = 0.0206278637,12.4338884,-0.0398775861
-	attPos = 0,-0.012295723,0.0500784665
-	attPos0 = -7.16623116E-09,0.0525455475,-0.0819721296
-	rot = -4.32978196E-17,0.707106888,4.32978129E-17,-0.707106769
-	attRot = 0,0,0,1
-	attRot0 = -4.32978196E-17,0.707106888,4.32978129E-17,-0.707106769
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = solarPanels4_4294025230
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041468,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (-0.5, -0.5, -0.5, 0.5)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		deployState = RETRACTED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = Custom01
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 }
 PART
@@ -1959,7 +1781,7 @@ PART
 {
 	part = .Luciole.Decoupler.0125_4293963540
 	partName = Part
-	persistentId = 1253907590
+	persistentId = 1951203242
 	pos = 0.0206278712,11.7241631,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-0.225158691,0
@@ -2066,7 +1888,7 @@ PART
 {
 	part = .Luciole.Fairing.07_4293935532
 	partName = Part
-	persistentId = 3619086872
+	persistentId = 2302325012
 	pos = 0.0206278712,11.5811625,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-0.143000603,0
@@ -2367,7 +2189,7 @@ PART
 {
 	part = .Luciole.Avionics.0625_4293960326
 	partName = Part
-	persistentId = 2487359345
+	persistentId = 3996108234
 	pos = 0.0206278712,11.4268904,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-0.154272079,0
@@ -2688,7 +2510,7 @@ PART
 {
 	part = .Luciole.UpperStage.0625.small_4293960226
 	partName = Part
-	persistentId = 2064774490
+	persistentId = 457149850
 	pos = 0.0206278712,10.9829435,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-0.443946362,0
@@ -2797,7 +2619,7 @@ PART
 {
 	part = .Luciole.Navier.Vaccum.Engine.0625_4293960142
 	partName = Part
-	persistentId = 833047265
+	persistentId = 1176949459
 	pos = 0.0206278712,10.3475733,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-0.635370255,0
@@ -3080,7 +2902,7 @@ PART
 {
 	part = .Luciole.Decoupler.0625_4293959874
 	partName = Part
-	persistentId = 2870788338
+	persistentId = 2623017000
 	pos = 0.0206278712,9.81507397,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-0.53249979,0
@@ -3203,7 +3025,7 @@ PART
 {
 	part = .Luciole.FirstStage.0625_4293959808
 	partName = Part
-	persistentId = 1286804456
+	persistentId = 702989437
 	pos = 0.0206278712,8.1775732,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-1.63750029,0
@@ -3312,7 +3134,7 @@ PART
 {
 	part = .Luciole.Engine.Mount_4293959716
 	partName = Part
-	persistentId = 1166175449
+	persistentId = 3990819345
 	pos = 0.0206278712,6.41713905,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-1.76043415,0
@@ -3425,7 +3247,7 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293959628
 	partName = Part
-	persistentId = 2036333654
+	persistentId = 2710549406
 	pos = 0.0206278712,6.34592724,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0,-0.0712118149,0
@@ -3707,7 +3529,7 @@ PART
 {
 	part = launchClamp1_4293959410
 	partName = Part
-	persistentId = 194127977
+	persistentId = 2551165673
 	pos = 0.0477534682,5.23649311,-1.3531816
 	attPos = 0.037832424,-0.120961189,0.0157358646
 	attPos0 = -0.0107068419,-0.988472939,-1.36093354
@@ -3832,7 +3654,7 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293959300
 	partName = Part
-	persistentId = 708299501
+	persistentId = 1336951470
 	pos = 0.210627928,6.34592724,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = 0.189999998,-0.0712118149,0
@@ -4107,7 +3929,7 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293959082
 	partName = Part
-	persistentId = 1161806016
+	persistentId = 3831108597
 	pos = -0.0743721575,6.34592724,-0.172528982
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,-0.164545
@@ -4382,7 +4204,7 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293958864
 	partName = Part
-	persistentId = 727082562
+	persistentId = 2378943473
 	pos = -0.0743723959,6.34592724,0.156561136
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,0.164545
@@ -4657,7 +4479,7 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293958646
 	partName = Part
-	persistentId = 3858730146
+	persistentId = 1773966181
 	pos = 0.1156279,6.34592724,-0.172528982
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,-0.164545
@@ -4932,7 +4754,7 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293958428
 	partName = Part
-	persistentId = 1028313206
+	persistentId = 1921010575
 	pos = -0.169372186,6.34592724,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = -0.189999998,-0.0712118149,0
@@ -5207,7 +5029,7 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293958210
 	partName = Part
-	persistentId = 2387302613
+	persistentId = 548804297
 	pos = 0.115628138,6.34592724,0.156561136
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,0.164545
@@ -5482,7 +5304,7 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293957992
 	partName = Part
-	persistentId = 3330216327
+	persistentId = 1072951657
 	pos = -0.132502303,6.43767166,-0.273213178
 	attPos = 0,0,0
 	attPos0 = -0.153130203,0.020532608,-0.265229255
@@ -5554,7 +5376,7 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293957958
 	partName = Part
-	persistentId = 3172793244
+	persistentId = 3476207925
 	pos = -0.285632432,6.43767166,-0.00798392296
 	attPos = 0,0,0
 	attPos0 = -0.306260377,0.020532608,1.49011612E-08
@@ -5626,7 +5448,7 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293957924
 	partName = Part
-	persistentId = 2897603265
+	persistentId = 2202397714
 	pos = -0.132502243,6.43767166,0.257245362
 	attPos = 0,0,0
 	attPos0 = -0.153130144,0.020532608,0.265229315
@@ -5698,7 +5520,7 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293957890
 	partName = Part
-	persistentId = 3839487344
+	persistentId = 3059604859
 	pos = 0.173758104,6.43767166,0.257245362
 	attPos = 0,0,0
 	attPos0 = 0.153130233,0.020532608,0.265229255
@@ -5770,7 +5592,7 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293957856
 	partName = Part
-	persistentId = 1720495136
+	persistentId = 753540290
 	pos = 0.326888263,6.43767166,-0.00798398256
 	attPos = 0,0,0
 	attPos0 = 0.306260407,0.020532608,-3.7252903E-08
@@ -5842,7 +5664,7 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293957822
 	partName = Part
-	persistentId = 2255847782
+	persistentId = 519136763
 	pos = 0.173758104,6.43767166,-0.273213178
 	attPos = 0,0,0
 	attPos0 = 0.153130218,0.020532608,-0.265229255
@@ -5914,7 +5736,7 @@ PART
 {
 	part = .Luciole.RCS.A.srf_4293957788
 	partName = Part
-	persistentId = 1189161898
+	persistentId = 1603707591
 	pos = -0.284922719,10.5464869,-0.00798392296
 	attPos = 0.00607421994,0,0
 	attPos0 = -0.311624736,0.198913097,1.86264515E-08
@@ -6014,7 +5836,7 @@ PART
 {
 	part = .Luciole.RCS.A.srf_4293957724
 	partName = Part
-	persistentId = 4207334119
+	persistentId = 2377248966
 	pos = 0.326178432,10.5464869,-0.00798392296
 	attPos = -0.00607421994,0,9.31322575E-10
 	attPos0 = 0.311624736,0.198913097,-4.61004674E-08
@@ -6104,6 +5926,578 @@ PART
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.SolarPanel.2_4293971730
+	partName = Part
+	persistentId = 1770353224
+	pos = -0.168974638,12.5989475,-0.00798391644
+	attPos = 0,0,0
+	attPos0 = -0.189602509,0.205308914,6.51925802E-09
+	rot = 0.49999997,-0.50000006,0.50000006,0.49999997
+	attRot = 0,0,0,1
+	attRot0 = 0.49999997,-0.50000006,0.50000006,0.49999997
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.SolarPanel.2_4293971550
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041468,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.SolarPanel.2_4293971550
+	partName = Part
+	persistentId = 1174685294
+	pos = 0.21023038,12.5989475,-0.00798394624
+	attPos = 0,0,0
+	attPos0 = 0.189602509,0.205308914,-2.32830644E-08
+	rot = 0.50000006,0.5,-0.5,0.50000006
+	attRot = 0,0,0,1
+	attRot0 = 0.50000006,0.5,-0.5,0.50000006
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.SolarPanel.2_4293971730
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041468,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.SolarPanel.2_4293970824
+	partName = Part
+	persistentId = 210845123
+	pos = -0.169131085,11.7459984,-0.00798391644
+	attPos = 0,0,0
+	attPos0 = -0.189758956,-0.203323364,6.51925802E-09
+	rot = -0.50000006,0.49999997,0.49999997,0.50000006
+	attRot = 0,0.999999881,0,0
+	attRot0 = -0.50000006,0.49999997,0.49999997,0.50000006
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.SolarPanel.2_4293970484
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041822,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.SolarPanel.2_4293970484
+	partName = Part
+	persistentId = 1175697802
+	pos = 0.210386828,11.7459984,-0.00798394624
+	attPos = 0,0,0
+	attPos0 = 0.189758956,-0.203323364,-2.32830644E-08
+	rot = 0.5,0.50000006,0.50000006,-0.5
+	attRot = 0,0.999999881,0,0
+	attRot0 = 0.5,0.50000006,0.50000006,-0.5
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.SolarPanel.2_4293970824
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041822,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.MarCO.UHF_4293963656
+	partName = Part
+	persistentId = 2746752022
+	pos = 0.0206278786,11.9724474,-0.0897480845
+	attPos = 0,0,0
+	attPos0 = 7.4505806E-09,0.0231256485,-0.0817641616
+	rot = 6.12323426E-17,1.33158025E-07,8.15357796E-24,-1
+	attRot = 0,0,0,1
+	attRot0 = 6.12323426E-17,1.33158025E-07,8.15357796E-24,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.MarCO.UHF_4293962838
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041822,Collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableAntenna
+		isEnabled = True
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.MarCO.UHF_4293962838
+	partName = Part
+	persistentId = 2826357817
+	pos = 0.0206278712,11.9724474,0.0737802386
+	attPos = 0,0,0
+	attPos0 = 0,0.0231256485,0.0817641616
+	rot = 5.47702734E-24,-1,-6.12323426E-17,-8.94466368E-08
+	attRot = 0,0,0,1
+	attRot0 = 5.47702734E-24,-1,-6.12323426E-17,-8.94466368E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.MarCO.UHF_4293963656
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294041822,Collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableAntenna
+		isEnabled = True
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
