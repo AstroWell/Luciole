@@ -2,6 +2,8 @@ Luciole 1.4 [2020-07-25]
 ------------------------
 
 	- New LaunchPad
+	- Fix HyperNavier attach node
+	- Fix Luciole Pod Engine Fx
 	
 Luciole 1.3 [2020-07-25]
 ------------------------
