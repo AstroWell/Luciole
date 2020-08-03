@@ -1,8 +1,8 @@
 ship = Luciole - Heavy
 version = 1.10.1
-description = 
+description = 1 - Activate the sat
 type = VAB
-size = 8.61120319,9.85886765,7.61827374
+size = 8.61120319,9.85886765,7.61827421
 steamPublishedFileId = 0
 persistentId = 3639594101
 rot = 0,0,0,0
@@ -16,8 +16,8 @@ PART
 {
 	part = .Luciole.Fairing.07_4293734560
 	partName = Part
-	persistentId = 2767322571
-	pos = -0.0222306177,14.9755621,0.0303537473
+	persistentId = 414041800
+	pos = -0.0222256165,14.9755659,0.0303434283
 	attPos = 0,0,0
 	attPos0 = -0.0222306177,14.9755621,0.0303537473
 	rot = 0,0,0,1
@@ -39,7 +39,6 @@ PART
 	modMass = 0.0413303487
 	modSize = 0,0,0
 	link = .Luciole.Avionics.0625_4294321246
-	link = .Luciole.Payload.Adapter_4293734456
 	attN = top,.Luciole.Payload.Adapter_4293734456_0|0.140000001|0_0|1|0_0|0.140000001|0_0|1|0
 	attN = bottom,.Luciole.Avionics.0625_4294321246_0|-0.104272|0_0|-1|0_0|-0.104272|0_0|-1|0
 	EVENTS
@@ -823,8 +822,8 @@ PART
 {
 	part = .Luciole.Payload.Adapter_4293734456
 	partName = Part
-	persistentId = 2183606034
-	pos = -0.0222306177,15.1583652,0.0303537473
+	persistentId = 3040835835
+	pos = -0.0222256165,15.1583691,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,0.182803154,0
 	rot = 0,0,0,1
@@ -847,7 +846,7 @@ PART
 	modSize = 0,0,0
 	link = .Luciole.Decoupler.0125_4293734340
 	link = .Luciole.Decoupler.0125_4293733766
-	link = .Luciole.Decoupler.0125_4293733192
+	link = .Luciole.Fairing.07_4293734560
 	attN = top,.Luciole.Decoupler.0125_4293733192_0|0.560388029|0_0|1|0_0|0.560388029|0_0|1|0
 	attN = top1,Null_0_0.170000002|0.0179340001|0_0|1|0_0.170000002|0.0179340001|0_0|1|0
 	attN = top2,.Luciole.Decoupler.0125_4293734340_0|0.0179340001|-0.170000002_0|1|0_0|0.0179340001|-0.170000002_0|1|0
@@ -900,8 +899,8 @@ PART
 {
 	part = .Luciole.Decoupler.0125_4293734340
 	partName = Part
-	persistentId = 3344711524
-	pos = -0.0222306177,15.1792994,-0.139646262
+	persistentId = 2527267866
+	pos = -0.0222256165,15.1793032,-0.139656588
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,-0.170000002
 	rot = 0,0,0,1
@@ -1007,8 +1006,8 @@ PART
 {
 	part = .Luciole.cubesat.6u.0625_4293734286
 	partName = Part
-	persistentId = 1908548953
-	pos = -0.0222306177,15.404458,-0.139646262
+	persistentId = 3981463539
+	pos = -0.0222256165,15.4044619,-0.139656588
 	attPos = 0,0,0
 	attPos0 = 0,0.225158691,0
 	rot = 0,0,0,1
@@ -1525,8 +1524,8 @@ PART
 {
 	part = .Luciole.MarCO.XBand_4293734146
 	partName = Part
-	persistentId = 1151821543
-	pos = -0.0222306177,15.4064922,-0.221396357
+	persistentId = 2398295321
+	pos = -0.0222256165,15.406496,-0.221406683
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 9.41569667E-08,0.707106829,-0.707106829,9.41569667E-08
@@ -1588,7 +1587,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1632,8 +1631,8 @@ PART
 {
 	part = .Luciole.MarCO.UHF_4293734076
 	partName = Part
-	persistentId = 2303553949
-	pos = -0.0222306177,15.459012,-0.0580575839
+	persistentId = 1610163493
+	pos = -0.0222256165,15.4590158,-0.0580679029
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 8.15358112E-24,1,-6.12323559E-17,1.33158053E-07
@@ -1695,7 +1694,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1739,8 +1738,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293734022
 	partName = Part
-	persistentId = 4185960369
-	pos = -0.212933034,15.6051865,-0.139646262
+	persistentId = 2259278759
+	pos = -0.212928027,15.6051903,-0.139656588
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = 0.49999997,-0.50000006,0.50000006,0.49999997
@@ -1805,7 +1804,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1828,8 +1827,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293733894
 	partName = Part
-	persistentId = 895962848
-	pos = 0.168471783,15.6051865,-0.139646262
+	persistentId = 3451897135
+	pos = 0.16847679,15.6051903,-0.139656588
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.50000006,0.5,-0.5,0.50000006
@@ -1894,7 +1893,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1917,8 +1916,8 @@ PART
 {
 	part = .Luciole.Decoupler.0125_4293733766
 	partName = Part
-	persistentId = 923724678
-	pos = -0.0222306177,15.1792994,0.200353771
+	persistentId = 3144774366
+	pos = -0.0222256165,15.1793032,0.200343445
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,0.170000017
 	rot = 0,0,0,1
@@ -2024,8 +2023,8 @@ PART
 {
 	part = .Luciole.cubesat.6u.0625_4293733712
 	partName = Part
-	persistentId = 657035656
-	pos = -0.0222306177,15.404458,0.200353771
+	persistentId = 2950583909
+	pos = -0.0222256165,15.4044619,0.200343445
 	attPos = 0,0,0
 	attPos0 = 0,0.225158691,0
 	rot = 0,-1,0,0
@@ -2542,8 +2541,8 @@ PART
 {
 	part = .Luciole.MarCO.XBand_4293733572
 	partName = Part
-	persistentId = 3459615581
-	pos = -0.0222306177,15.4064922,0.282103866
+	persistentId = 370679820
+	pos = -0.0222256165,15.406496,0.282093525
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 0.707106829,-9.41569667E-08,9.41569667E-08,0.707106829
@@ -2605,7 +2604,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -2649,8 +2648,8 @@ PART
 {
 	part = .Luciole.MarCO.UHF_4293733502
 	partName = Part
-	persistentId = 788100674
-	pos = -0.0222306177,15.459012,0.118765078
+	persistentId = 1859876080
+	pos = -0.0222256165,15.4590158,0.118754759
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 6.12323559E-17,-1.33158053E-07,8.15358112E-24,1
@@ -2712,7 +2711,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -2756,8 +2755,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293733448
 	partName = Part
-	persistentId = 2896071003
-	pos = 0.168471813,15.6051865,0.200353771
+	persistentId = 2530399529
+	pos = 0.16847682,15.6051903,0.200343445
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = -0.50000006,-0.49999997,0.49999997,-0.50000006
@@ -2822,7 +2821,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -2845,8 +2844,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293733320
 	partName = Part
-	persistentId = 3352608359
-	pos = -0.212933004,15.6051865,0.200353831
+	persistentId = 4125279271
+	pos = -0.212927997,15.6051903,0.200343505
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.5,-0.50000006,0.50000006,0.5
@@ -2911,7 +2910,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -2934,8 +2933,8 @@ PART
 {
 	part = .Luciole.Decoupler.0125_4293733192
 	partName = Part
-	persistentId = 415619574
-	pos = -0.0222306177,15.7217531,0.0303537473
+	persistentId = 2628550757
+	pos = -0.0222256165,15.7217569,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,0.563387871,0
 	rot = 0,0,0,1
@@ -2956,7 +2955,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.Payload.Adapter_4293733138
+	link = .Luciole.Payload.Adapter_4293734456
 	attN = top,.Luciole.Payload.Adapter_4293733138_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
 	attN = bottom,.Luciole.Payload.Adapter_4293734456_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
 	EVENTS
@@ -3041,8 +3040,8 @@ PART
 {
 	part = .Luciole.Payload.Adapter_4293733138
 	partName = Part
-	persistentId = 509293383
-	pos = -0.0222306177,15.7675562,0.0303537473
+	persistentId = 169804370
+	pos = -0.0222256165,15.76756,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,0.0458030701,0
 	rot = 0,0,0,1
@@ -3064,7 +3063,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = .Luciole.Decoupler.0125_4293732448
-	link = .Luciole.Decoupler.0125_4293733022
+	link = .Luciole.Decoupler.0125_4293733192
 	attN = top,Null_0_0|0.0179340001|0_0|1|0_0|0.0179340001|0_0|1|0
 	attN = top1,Null_0_0.170000002|0.0179340001|0_0|1|0_0.170000002|0.0179340001|0_0|1|0
 	attN = top2,.Luciole.Decoupler.0125_4293733022_0|0.0179340001|-0.170000002_0|1|0_0|0.0179340001|-0.170000002_0|1|0
@@ -3116,8 +3115,8 @@ PART
 {
 	part = .Luciole.Decoupler.0125_4293733022
 	partName = Part
-	persistentId = 315174002
-	pos = -0.0222306177,15.7884903,-0.139646262
+	persistentId = 1441133345
+	pos = -0.0222256165,15.7884941,-0.139656588
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,-0.170000002
 	rot = 0,0,0,1
@@ -3130,7 +3129,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 3
-	sidx = 1
+	sidx = 0
 	sqor = 2
 	sepI = 2
 	attm = 0
@@ -3138,7 +3137,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.cubesat.6u.0625_4293732968
+	link = .Luciole.Payload.Adapter_4293733138
 	attN = top,.Luciole.cubesat.6u.0625_4293732968_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
 	attN = bottom,.Luciole.Payload.Adapter_4293733138_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
 	EVENTS
@@ -3223,10 +3222,10 @@ PART
 {
 	part = .Luciole.cubesat.6u.0625_4293732968
 	partName = Part
-	persistentId = 1551556221
-	pos = -0.0222306177,16.013649,-0.139646262
+	persistentId = 2375475092
+	pos = -0.0222256165,16.0136528,-0.139656588
 	attPos = 0,0,0
-	attPos0 = 0.00143736787,16.0882626,-0.148296863
+	attPos0 = -0.0222256165,16.0136528,-0.139656588
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -3249,6 +3248,7 @@ PART
 	link = .Luciole.MarCO.UHF_4293732758
 	link = .Luciole.SolarPanel.1_4293732704
 	link = .Luciole.SolarPanel.1_4293732576
+	link = .Luciole.Decoupler.0125_4293733022
 	attN = top,Null_0_0|0.222158|0_0|1|0_0|0.222158|0_0|1|0
 	attN = bottom,.Luciole.Decoupler.0125_4293733022_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
 	EVENTS
@@ -3741,8 +3741,8 @@ PART
 {
 	part = .Luciole.MarCO.XBand_4293732828
 	partName = Part
-	persistentId = 2684108593
-	pos = -0.0222306177,16.0156822,-0.221396357
+	persistentId = 1207756894
+	pos = -0.0222256165,16.015686,-0.221406683
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 9.41569667E-08,0.707106829,-0.707106829,9.41569667E-08
@@ -3804,7 +3804,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -3848,8 +3848,8 @@ PART
 {
 	part = .Luciole.MarCO.UHF_4293732758
 	partName = Part
-	persistentId = 1935272271
-	pos = -0.0222306177,16.068203,-0.0580575839
+	persistentId = 1709700643
+	pos = -0.0222256165,16.0682068,-0.0580679029
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 8.15358112E-24,1,-6.12323559E-17,1.33158053E-07
@@ -3911,7 +3911,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -3955,8 +3955,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293732704
 	partName = Part
-	persistentId = 3085046304
-	pos = -0.212933034,16.2143784,-0.139646262
+	persistentId = 3484208453
+	pos = -0.212928027,16.2143822,-0.139656588
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = 0.49999997,-0.50000006,0.50000006,0.49999997
@@ -4021,7 +4021,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -4044,8 +4044,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293732576
 	partName = Part
-	persistentId = 4005859950
-	pos = 0.168471783,16.2143784,-0.139646262
+	persistentId = 2046538788
+	pos = 0.16847679,16.2143822,-0.139656588
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.50000006,0.5,-0.5,0.50000006
@@ -4110,7 +4110,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -4133,8 +4133,8 @@ PART
 {
 	part = .Luciole.Decoupler.0125_4293732448
 	partName = Part
-	persistentId = 729652464
-	pos = -0.0222306177,15.7884903,0.200353771
+	persistentId = 42737194
+	pos = -0.0222256165,15.7884941,0.200343445
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,0.170000017
 	rot = 0,0,0,1
@@ -4147,7 +4147,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 3
-	sidx = 0
+	sidx = 1
 	sqor = 2
 	sepI = 2
 	attm = 0
@@ -4240,8 +4240,8 @@ PART
 {
 	part = .Luciole.cubesat.6u.0625_4293732394
 	partName = Part
-	persistentId = 2057227283
-	pos = -0.0222306177,16.013649,0.200353771
+	persistentId = 104277105
+	pos = -0.0222256165,16.0136528,0.200343445
 	attPos = 0,0,0
 	attPos0 = 0,0.225158691,0
 	rot = 0,-1,0,0
@@ -4758,8 +4758,8 @@ PART
 {
 	part = .Luciole.MarCO.XBand_4293732254
 	partName = Part
-	persistentId = 1031594617
-	pos = -0.0222306177,16.0156822,0.282103866
+	persistentId = 3257093134
+	pos = -0.0222256165,16.015686,0.282093525
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 0.707106829,-9.41569667E-08,9.41569667E-08,0.707106829
@@ -4821,7 +4821,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -4865,8 +4865,8 @@ PART
 {
 	part = .Luciole.MarCO.UHF_4293732184
 	partName = Part
-	persistentId = 3721802686
-	pos = -0.0222306177,16.068203,0.118765078
+	persistentId = 2520331364
+	pos = -0.0222256165,16.0682068,0.118754759
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 6.12323559E-17,-1.33158053E-07,8.15358112E-24,1
@@ -4928,7 +4928,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -4972,8 +4972,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293732130
 	partName = Part
-	persistentId = 405129027
-	pos = 0.168471813,16.2143784,0.200353771
+	persistentId = 3572333503
+	pos = 0.16847682,16.2143822,0.200343445
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = -0.50000006,-0.49999997,0.49999997,-0.50000006
@@ -5038,7 +5038,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -5061,8 +5061,8 @@ PART
 {
 	part = .Luciole.SolarPanel.1_4293732002
 	partName = Part
-	persistentId = 1543874875
-	pos = -0.212933004,16.2143784,0.200353831
+	persistentId = 807927807
+	pos = -0.212927997,16.2143822,0.200343505
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.5,-0.50000006,0.50000006,0.5
@@ -5127,7 +5127,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = None
+				actionGroup = Custom01
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -5150,8 +5150,8 @@ PART
 {
 	part = .Luciole.Avionics.0625_4294321246
 	partName = Part
-	persistentId = 2788628564
-	pos = -0.0222306177,14.82129,0.0303537473
+	persistentId = 651077017
+	pos = -0.0222256165,14.8212938,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-0.154272079,0
 	rot = 0,0,0,1
@@ -5471,8 +5471,8 @@ PART
 {
 	part = .Luciole.Monoprop.0625.nano_4293716132
 	partName = Part
-	persistentId = 2809185467
-	pos = -0.0222306177,14.6462898,0.0303537473
+	persistentId = 3293536297
+	pos = -0.0222256165,14.6462936,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-0.175000191,0
 	rot = 0,0,0,1
@@ -5552,8 +5552,8 @@ PART
 {
 	part = .Luciole.KickStage.0625_4293725330
 	partName = Part
-	persistentId = 3983264104
-	pos = -0.0222306177,14.4601278,0.0303537473
+	persistentId = 3472354426
+	pos = -0.0222256165,14.4601316,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-0.186161995,0
 	rot = 0,0,0,1
@@ -6065,8 +6065,8 @@ PART
 {
 	part = .Luciole.Decoupler.0625_4293708644
 	partName = Part
-	persistentId = 2134284482
-	pos = -0.0222306177,14.2559462,0.0303537473
+	persistentId = 3615293832
+	pos = -0.0222256165,14.25595,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-0.204181671,0
 	rot = 0,0,0,1
@@ -6188,8 +6188,8 @@ PART
 {
 	part = .Luciole.UpperStage.0625_4294488750
 	partName = Part
-	persistentId = 4061384344
-	pos = -0.0222306177,13.4934464,0.0303537473
+	persistentId = 1478469083
+	pos = -0.0222256165,13.4934502,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-0.762499809,0
 	rot = 0,0,0,1
@@ -6301,8 +6301,8 @@ PART
 {
 	part = .Luciole.Navier.Vaccum.Engine.0625_4294488604
 	partName = Part
-	persistentId = 1984626151
-	pos = -0.0222306177,12.4885206,0.0303537473
+	persistentId = 1907925699
+	pos = -0.0222256165,12.4885244,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-1.00492573,0
 	rot = 0,0,0,1
@@ -6582,8 +6582,8 @@ PART
 {
 	part = .Luciole.Decoupler.0625_4294484514
 	partName = Part
-	persistentId = 1122164976
-	pos = -0.0222306177,11.9560213,0.0303537473
+	persistentId = 4054303234
+	pos = -0.0222256165,11.9560251,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-0.53249979,0
 	rot = 0,0,0,1
@@ -6705,8 +6705,8 @@ PART
 {
 	part = .Luciole.FirstStage.0625_4294487418
 	partName = Part
-	persistentId = 1904758664
-	pos = -0.0222306177,10.3185205,0.0303537473
+	persistentId = 1648685439
+	pos = -0.0222256165,10.3185244,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-1.63750029,0
 	rot = 0,0,0,1
@@ -6816,8 +6816,8 @@ PART
 {
 	part = .Luciole.Engine.Mount_4294486098
 	partName = Part
-	persistentId = 80191805
-	pos = -0.0222306177,8.5580864,0.0303537473
+	persistentId = 3608702259
+	pos = -0.0222256165,8.55809021,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-1.76043415,0
 	rot = 0,0,0,1
@@ -6851,9 +6851,9 @@ PART
 	link = .Luciole.Nano.Fin_4294504240
 	link = .Luciole.Nano.Fin_4294504196
 	link = .Luciole.Nano.Fin_4294504152
-	link = Luciole.LaunchPad_4293595922
+	link = Luciole.LaunchPad_4292656078
 	attN = top,.Luciole.FirstStage.0625_4294487418_0|0.135434002|0_0|1|0_0|0.135434002|0_0|1|0
-	attN = bottom,Luciole.LaunchPad_4293595922_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
+	attN = bottom,Luciole.LaunchPad_4292656078_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
 	attN = bottom1,.Luciole.Navier.Engine.03125_4294485252_0|0.106600001|0_0|-1|0_0|0.106600001|0_0|-1|0
 	attN = bottom2,.Luciole.Navier.Engine.03125_4294483874_-0.0949999988|0.106600001|0.164545_0|-1|0_-0.0949999988|0.106600001|0.164545_0|-1|0
 	attN = bottom3,.Luciole.Navier.Engine.03125_4294481740_0.0949999988|0.106600001|0.164545_0|-1|0_0.0949999988|0.106600001|0.164545_0|-1|0
@@ -6930,8 +6930,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294485252
 	partName = Part
-	persistentId = 402630339
-	pos = -0.0222306177,8.48687458,0.0303537473
+	persistentId = 2603933330
+	pos = -0.0222256165,8.4868784,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0,-0.0712118149,0
 	rot = 0,0,0,1
@@ -6941,11 +6941,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 4
 	sidx = 5
-	sqor = 9
+	sqor = 10
 	sepI = 7
 	attm = 0
 	sameVesselCollision = False
@@ -7211,8 +7211,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294484540
 	partName = Part
-	persistentId = 4093916099
-	pos = 0.167769551,8.48687458,0.0303538218
+	persistentId = 3257741807
+	pos = 0.167774558,8.4868784,0.0303435028
 	attPos = 0,0,0
 	attPos0 = 0.189999998,-0.0712118149,0
 	rot = 0,-0.382683575,0,-0.923879504
@@ -7222,11 +7222,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 9
+	sqor = 10
 	sepI = 7
 	attm = 0
 	sameVesselCollision = False
@@ -7486,8 +7486,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294484108
 	partName = Part
-	persistentId = 660531372
-	pos = -0.117230617,8.48687458,-0.134191245
+	persistentId = 2772959571
+	pos = -0.117225617,8.4868784,-0.134201571
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,-0.164545
 	rot = 0,0.991444886,0,0.130526111
@@ -7497,11 +7497,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 9
+	sqor = 10
 	sepI = 7
 	attm = 0
 	sameVesselCollision = False
@@ -7761,8 +7761,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294483874
 	partName = Part
-	persistentId = 1236307472
-	pos = -0.117230766,8.48687458,0.194898695
+	persistentId = 3549179109
+	pos = -0.117225766,8.4868784,0.194888368
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,0.164545
 	rot = 0,0.60876137,0,-0.793353438
@@ -7772,11 +7772,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 9
+	sqor = 10
 	sepI = 7
 	attm = 0
 	sameVesselCollision = False
@@ -8036,8 +8036,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294483440
 	partName = Part
-	persistentId = 937781797
-	pos = 0.0727693811,8.48687458,-0.134191245
+	persistentId = 2842519275
+	pos = 0.0727743804,8.4868784,-0.134201571
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,-0.164545
 	rot = 0,-0.793353438,0,-0.608761311
@@ -8047,11 +8047,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 4
 	sidx = 1
-	sqor = 9
+	sqor = 10
 	sepI = 7
 	attm = 0
 	sameVesselCollision = False
@@ -8311,8 +8311,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294481980
 	partName = Part
-	persistentId = 2867991956
-	pos = -0.212230802,8.48687458,0.0303538665
+	persistentId = 3580863413
+	pos = -0.212225795,8.4868784,0.0303435475
 	attPos = 0,0,0
 	attPos0 = -0.189999998,-0.0712118149,0
 	rot = 0,-0.923879504,0,0.382683635
@@ -8322,11 +8322,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 4
 	sidx = 1
-	sqor = 9
+	sqor = 10
 	sepI = 7
 	attm = 0
 	sameVesselCollision = False
@@ -8586,8 +8586,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294481740
 	partName = Part
-	persistentId = 1593595321
-	pos = 0.0727695599,8.48687458,0.194898695
+	persistentId = 2554790751
+	pos = 0.0727745593,8.4868784,0.194888368
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,0.164545
 	rot = 0,-0.130525976,0,0.991444886
@@ -8597,11 +8597,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 4
 	sidx = 1
-	sqor = 9
+	sqor = 10
 	sepI = 7
 	attm = 0
 	sameVesselCollision = False
@@ -8861,8 +8861,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504676
 	partName = Part
-	persistentId = 3945449643
-	pos = -0.175197899,8.56187916,-0.234593302
+	persistentId = 2846683475
+	pos = -0.175192893,8.56188297,-0.234603629
 	attPos = 0,0,0
 	attPos0 = -0.152967274,0.00379276276,-0.264947057
 	rot = 0,0.49999997,0,-0.866025507
@@ -8933,8 +8933,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504328
 	partName = Part
-	persistentId = 3587304440
-	pos = -0.328165114,8.56187916,0.0303537622
+	persistentId = 1409428761
+	pos = -0.328160107,8.56188297,0.0303434432
 	attPos = 0,0,0
 	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
 	rot = 0,-8.54142073E-08,0,-1
@@ -9005,8 +9005,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504284
 	partName = Part
-	persistentId = 2896187647
-	pos = -0.17519784,8.56187916,0.295300871
+	persistentId = 3379358111
+	pos = -0.175192833,8.56188297,0.29529053
 	attPos = 0,0,0
 	attPos0 = -0.152967229,0.00379276276,0.264947116
 	rot = 0,-0.500000119,0,-0.866025329
@@ -9077,8 +9077,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504240
 	partName = Part
-	persistentId = 225853068
-	pos = 0.130736679,8.56187916,0.295300812
+	persistentId = 2725428797
+	pos = 0.130741686,8.56188297,0.29529047
 	attPos = 0,0,0
 	attPos0 = 0.152967304,0.00379276276,0.264947057
 	rot = 0,-0.866025507,0,-0.49999994
@@ -9149,8 +9149,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504196
 	partName = Part
-	persistentId = 1311069214
-	pos = 0.283703923,8.56187916,0.0303537175
+	persistentId = 497925120
+	pos = 0.28370893,8.56188297,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
 	rot = 0,-1,0,1.37033339E-07
@@ -9221,8 +9221,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504152
 	partName = Part
-	persistentId = 2315884166
-	pos = 0.130736679,8.56187916,-0.234593302
+	persistentId = 3534115740
+	pos = 0.130741686,8.56188297,-0.234603629
 	attPos = 0,0,0
 	attPos0 = 0.152967289,0.00379276276,-0.264947057
 	rot = 0,-0.866025448,0,0.50000006
@@ -9293,8 +9293,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416382
 	partName = Part
-	persistentId = 1915798030
-	pos = -0.237030983,12.8408508,-0.184446603
+	persistentId = 1163753599
+	pos = -0.237025976,12.8408546,-0.18445693
 	attPos = 0,0,0
 	attPos0 = -0.214800373,-0.65259552,-0.214800358
 	rot = 0,0.382683456,0,-0.923879623
@@ -9363,8 +9363,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416136
 	partName = Part
-	persistentId = 1992490074
-	pos = -0.237030983,12.8408508,0.245154083
+	persistentId = 939713123
+	pos = -0.237025976,12.8408546,0.245143756
 	attPos = 0,0,0
 	attPos0 = -0.214800358,-0.65259552,0.214800343
 	rot = 0,-0.382683456,0,-0.923879564
@@ -9433,8 +9433,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416092
 	partName = Part
-	persistentId = 3386506684
-	pos = 0.192569762,12.8408508,0.245154083
+	persistentId = 2972092613
+	pos = 0.192574769,12.8408546,0.245143756
 	attPos = 0,0,0
 	attPos0 = 0.214800388,-0.65259552,0.214800343
 	rot = 0,-0.923879623,0,-0.382683426
@@ -9503,8 +9503,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416048
 	partName = Part
-	persistentId = 191508092
-	pos = 0.192569703,12.8408508,-0.184446633
+	persistentId = 1824348415
+	pos = 0.19257471,12.8408546,-0.184456959
 	attPos = 0,0,0
 	attPos0 = 0.214800328,-0.65259552,-0.214800373
 	rot = 0,-0.923879564,0,0.382683456
@@ -9573,8 +9573,8 @@ PART
 {
 	part = .Luciole.RadialDecoupler_4293704662
 	partName = Part
-	persistentId = 1029337947
-	pos = -0.339784503,10.434001,0.0303537659
+	persistentId = 693059790
+	pos = -0.339779496,10.4340048,0.0303434432
 	attPos = -0.0062058866,0,0
 	attPos0 = -0.311347991,0.115480423,1.85577882E-08
 	rot = 0,8.42937027E-08,0,1
@@ -9696,8 +9696,8 @@ PART
 {
 	part = .Luciole.RadialDecoupler_4293704412
 	partName = Part
-	persistentId = 2862939513
-	pos = 0.295323253,10.434001,0.0303537007
+	persistentId = 3124186905
+	pos = 0.295328259,10.4340048,0.0303433836
 	attPos = 0.0062058866,0,-5.42534906E-10
 	attPos0 = 0.311347991,0.115480423,-4.57766944E-08
 	rot = 0,1,0,-1.28005098E-07
@@ -9819,8 +9819,8 @@ PART
 {
 	part = .Luciole.FirstStage.0625_4293707024
 	partName = Part
-	persistentId = 1686502657
-	pos = -0.702322483,10.3218031,0.030353725
+	persistentId = 2944928420
+	pos = -0.702317476,10.3218069,0.0303433985
 	attPos = 0,0.0543575287,0
 	attPos0 = -0.36253795,-0.166555405,-1.02384625E-07
 	rot = 0,-8.42937027E-08,0,1
@@ -9931,8 +9931,8 @@ PART
 {
 	part = .Luciole.Engine.Mount_4293706934
 	partName = Part
-	persistentId = 1630503976
-	pos = -0.702322483,8.56136894,0.030353725
+	persistentId = 1804669901
+	pos = -0.702317476,8.56137276,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0,-1.76043415,0
 	rot = 0,-8.42937027E-08,0,1
@@ -10045,8 +10045,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706848
 	partName = Part
-	persistentId = 599164705
-	pos = -0.702322483,8.49015713,0.030353725
+	persistentId = 492607120
+	pos = -0.702317476,8.49016094,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0,-0.0712118149,0
 	rot = 0,-8.42937027E-08,0,1
@@ -10056,11 +10056,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 2
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -10319,8 +10319,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706650
 	partName = Part
-	persistentId = 363192370
-	pos = -0.512322247,8.49015713,0.0303538311
+	persistentId = 1821938691
+	pos = -0.51231724,8.49016094,0.0303435177
 	attPos = 0,0,0
 	attPos0 = 0.189999998,-0.0712118149,0
 	rot = 0,-0.382683516,0,-0.923879504
@@ -10330,11 +10330,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 3
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -10597,8 +10597,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706452
 	partName = Part
-	persistentId = 1683069145
-	pos = -0.797322392,8.49015713,-0.134191304
+	persistentId = 128761796
+	pos = -0.797317386,8.49016094,-0.134201631
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,-0.164545
 	rot = 0,0.991444886,0,0.130526185
@@ -10608,11 +10608,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 3
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -10875,8 +10875,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706254
 	partName = Part
-	persistentId = 3104831156
-	pos = -0.797322631,8.49015713,0.194898635
+	persistentId = 3448478608
+	pos = -0.797317624,8.49016094,0.194888309
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,0.164545
 	rot = 0,0.60876143,0,-0.793353379
@@ -10886,11 +10886,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 3
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -11153,8 +11153,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706056
 	partName = Part
-	persistentId = 1225904902
-	pos = -0.607322454,8.49015713,-0.134191275
+	persistentId = 2210725358
+	pos = -0.607317448,8.49016094,-0.134201601
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,-0.164545
 	rot = 0,-0.793353379,0,-0.60876137
@@ -11164,11 +11164,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 4
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -11431,8 +11431,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293705858
 	partName = Part
-	persistentId = 2838669337
-	pos = -0.892322659,8.49015713,0.0303538125
+	persistentId = 3868326859
+	pos = -0.892317653,8.49016094,0.0303434879
 	attPos = 0,0,0
 	attPos0 = -0.189999998,-0.0712118149,0
 	rot = 0,-0.923879504,0,0.382683575
@@ -11442,11 +11442,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 4
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -11709,8 +11709,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293705660
 	partName = Part
-	persistentId = 260681012
-	pos = -0.607322335,8.49015713,0.194898665
+	persistentId = 736167009
+	pos = -0.607317328,8.49016094,0.194888338
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,0.164545
 	rot = 0,-0.130526051,0,0.991444886
@@ -11720,11 +11720,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 4
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -11987,8 +11987,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705462
 	partName = Part
-	persistentId = 1414248075
-	pos = -0.855289698,8.56516171,-0.234593332
+	persistentId = 3343235559
+	pos = -0.855284691,8.56516552,-0.234603658
 	attPos = 0,0,0
 	attPos0 = -0.152967274,0.00379276276,-0.264947057
 	rot = 0,0.5,0,-0.866025448
@@ -12065,8 +12065,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705418
 	partName = Part
-	persistentId = 3550380210
-	pos = -1.00825691,8.56516171,0.0303536877
+	persistentId = 1512175402
+	pos = -1.00825191,8.56516552,0.0303433686
 	attPos = 0,0,0
 	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
 	rot = 0,-1.12050458E-09,0,-1
@@ -12143,8 +12143,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705374
 	partName = Part
-	persistentId = 1998535868
-	pos = -0.855289698,8.56516171,0.295300841
+	persistentId = 3136816790
+	pos = -0.855284691,8.56516552,0.29529053
 	attPos = 0,0,0
 	attPos0 = -0.152967229,0.00379276276,0.264947116
 	rot = 0,-0.50000006,0,-0.866025269
@@ -12221,8 +12221,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705330
 	partName = Part
-	persistentId = 3415094940
-	pos = -0.549355149,8.56516171,0.295300841
+	persistentId = 64480015
+	pos = -0.549350142,8.56516552,0.29529053
 	attPos = 0,0,0
 	attPos0 = 0.152967304,0.00379276276,0.264947057
 	rot = 0,-0.866025507,0,-0.49999994
@@ -12299,8 +12299,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705286
 	partName = Part
-	persistentId = 587377378
-	pos = -0.396387905,8.56516171,0.0303537454
+	persistentId = 3756365726
+	pos = -0.396382898,8.56516552,0.0303434283
 	attPos = 0,0,0
 	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
 	rot = 0,-1,0,5.27396367E-08
@@ -12377,8 +12377,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705242
 	partName = Part
-	persistentId = 159584203
-	pos = -0.549355149,8.56516171,-0.234593272
+	persistentId = 1243485979
+	pos = -0.549350142,8.56516552,-0.234603599
 	attPos = 0,0,0
 	attPos0 = 0.152967289,0.00379276276,-0.264947057
 	rot = 0,-0.866025448,0,0.49999997
@@ -12455,8 +12455,8 @@ PART
 {
 	part = .Luciole.NoseCone.0625_4293690180
 	partName = Part
-	persistentId = 3783908509
-	pos = -0.702322483,12.1549196,0.030353725
+	persistentId = 1141686414
+	pos = -0.702317476,12.1549234,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0,1.83311653,0
 	rot = 0,0,0,1
@@ -12524,8 +12524,8 @@ PART
 {
 	part = .Luciole.FirstStage.0625_4293663900
 	partName = Part
-	persistentId = 875070960
-	pos = 0.657861233,10.3218031,0.0303537101
+	persistentId = 1415258041
+	pos = 0.65786624,10.3218069,0.0303433985
 	attPos = 0,0.0543575287,0
 	attPos0 = -0.36253795,-0.166555405,-1.02384632E-07
 	rot = 0,1,0,4.05823073E-08
@@ -12636,8 +12636,8 @@ PART
 {
 	part = .Luciole.Engine.Mount_4293663804
 	partName = Part
-	persistentId = 1973248749
-	pos = 0.657861233,8.56136894,0.0303537101
+	persistentId = 3900032243
+	pos = 0.65786624,8.56137276,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0,-1.76043415,0
 	rot = 0,1,0,4.05823073E-08
@@ -12750,8 +12750,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663712
 	partName = Part
-	persistentId = 2902365510
-	pos = 0.657861233,8.49015713,0.0303537101
+	persistentId = 2097117731
+	pos = 0.65786624,8.49016094,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0,-0.0712118149,0
 	rot = 0,1,0,4.05823073E-08
@@ -12761,11 +12761,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 2
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -13024,8 +13024,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663508
 	partName = Part
-	persistentId = 340663683
-	pos = 0.467861086,8.49015713,0.0303536206
+	persistentId = 439547351
+	pos = 0.467866093,8.49016094,0.030343309
 	attPos = 0,0,0
 	attPos0 = 0.189999998,-0.0712118149,0
 	rot = 0,-0.923879504,0,0.382683545
@@ -13035,11 +13035,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 3
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -13302,8 +13302,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663304
 	partName = Part
-	persistentId = 3256486067
-	pos = 0.752861142,8.49015713,0.194898665
+	persistentId = 1580234777
+	pos = 0.752866149,8.49016094,0.194888338
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,-0.164545
 	rot = 0,0.13052614,0,-0.991444886
@@ -13313,11 +13313,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 3
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -13580,8 +13580,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663100
 	partName = Part
-	persistentId = 311942360
-	pos = 0.752861381,8.49015713,-0.134191245
+	persistentId = 3836260641
+	pos = 0.752866387,8.49016094,-0.134201571
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,0.164545
 	rot = 0,-0.793353379,0,-0.60876137
@@ -13591,11 +13591,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 3
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -13858,8 +13858,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293662896
 	partName = Part
-	persistentId = 3088200679
-	pos = 0.562861204,8.49015713,0.194898635
+	persistentId = 545043553
+	pos = 0.562866211,8.49016094,0.194888309
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,-0.164545
 	rot = 0,-0.608761311,0,0.793353319
@@ -13869,11 +13869,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 4
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -14136,8 +14136,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293662692
 	partName = Part
-	persistentId = 917356255
-	pos = 0.847861409,8.49015713,0.0303536225
+	persistentId = 1215249060
+	pos = 0.847866416,8.49016094,0.030343309
 	attPos = 0,0,0
 	attPos0 = -0.189999998,-0.0712118149,0
 	rot = 0,0.382683605,0,0.923879504
@@ -14147,11 +14147,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 4
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -14414,8 +14414,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293662488
 	partName = Part
-	persistentId = 1226107163
-	pos = 0.562861085,8.49015713,-0.134191185
+	persistentId = 1684934467
+	pos = 0.562866092,8.49016094,-0.134201512
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,0.164545
 	rot = 0,0.991444886,0,0.130526006
@@ -14425,11 +14425,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 9
+	istg = 10
 	resPri = 0
 	dstg = 6
 	sidx = 4
-	sqor = 9
+	sqor = 10
 	sepI = 8
 	attm = 0
 	sameVesselCollision = False
@@ -14692,8 +14692,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662284
 	partName = Part
-	persistentId = 977632778
-	pos = 0.810828447,8.56516171,0.295300782
+	persistentId = 1011670704
+	pos = 0.810833454,8.56516552,0.29529047
 	attPos = 0,0,0
 	attPos0 = -0.152967274,0.00379276276,-0.264947057
 	rot = 0,-0.866025448,0,-0.49999994
@@ -14770,8 +14770,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662234
 	partName = Part
-	persistentId = 532717673
-	pos = 0.963795662,8.56516171,0.0303537212
+	persistentId = 3361969942
+	pos = 0.963800669,8.56516552,0.0303433985
 	attPos = 0,0,0
 	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
 	rot = 0,-1,0,4.48319E-08
@@ -14848,8 +14848,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662184
 	partName = Part
-	persistentId = 1569093544
-	pos = 0.810828447,8.56516171,-0.234593391
+	persistentId = 1176941044
+	pos = 0.810833454,8.56516552,-0.234603718
 	attPos = 0,0,0
 	attPos0 = -0.152967229,0.00379276276,0.264947116
 	rot = 0,-0.866025388,0,0.49999997
@@ -14926,8 +14926,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662134
 	partName = Part
-	persistentId = 306595500
-	pos = 0.504893899,8.56516171,-0.234593391
+	persistentId = 673001404
+	pos = 0.504898906,8.56516552,-0.234603718
 	attPos = 0,0,0
 	attPos0 = 0.152967304,0.00379276276,0.264947057
 	rot = 0,-0.49999994,0,0.866025507
@@ -15004,8 +15004,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662084
 	partName = Part
-	persistentId = 1665331940
-	pos = 0.351926655,8.56516171,0.0303537156
+	persistentId = 2522382208
+	pos = 0.351931661,8.56516552,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
 	rot = 0,9.64510321E-08,0,1
@@ -15082,8 +15082,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662034
 	partName = Part
-	persistentId = 1016173729
-	pos = 0.504893899,8.56516171,0.295300722
+	persistentId = 1081625215
+	pos = 0.504898906,8.56516552,0.295290411
 	attPos = 0,0,0
 	attPos0 = 0.152967289,0.00379276276,-0.264947057
 	rot = 0,0.49999997,0,0.866025448
@@ -15160,8 +15160,8 @@ PART
 {
 	part = .Luciole.NoseCone.0625_4293661984
 	partName = Part
-	persistentId = 4147070692
-	pos = 0.657861233,12.1549196,0.0303537101
+	persistentId = 1186711190
+	pos = 0.65786624,12.1549234,0.0303433985
 	attPos = 0,0,0
 	attPos0 = 0,1.83311653,0
 	rot = 0,1,0,-4.37113954E-08
@@ -15227,23 +15227,23 @@ PART
 }
 PART
 {
-	part = Luciole.LaunchPad_4293595922
+	part = Luciole.LaunchPad_4292656078
 	partName = Part
-	persistentId = 2454832193
-	pos = -0.0222306177,7.75808573,0.0303537473
+	persistentId = 3690158608
+	pos = -0.0222256165,7.75809002,0.0303434283
 	attPos = 0,0,0
-	attPos0 = 0,-0.800000668,0
+	attPos0 = 0,-0.799999714,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Off
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
 	dstg = 4
-	sidx = 6
+	sidx = 0
 	sqor = 9
 	sepI = 9
 	attm = 0
@@ -15438,30 +15438,32 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleResourceConverter
+		name = ModuleGenerator
 		isEnabled = True
-		EfficiencyBonus = 1
-		IsActivated = False
+		generatorIsActive = False
+		throttle = 0
 		stagingEnabled = True
-		lastUpdateTime = 0
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			StopResourceConverterAction
+			ToggleAction
 			{
 				actionGroup = None
+				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-			StartResourceConverterAction
+			ActivateAction
 			{
 				actionGroup = None
+				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-			ToggleResourceConverterAction
+			ShutdownAction
 			{
 				actionGroup = None
+				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
 		}
@@ -15591,44 +15593,30 @@ PART
 		{
 		}
 	}
-	RESOURCE
+	MODULE
 	{
-		name = LiquidFuel
-		amount = 405
-		maxAmount = 405
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 495
-		maxAmount = 495
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 250
-		maxAmount = 250
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 5000
-		maxAmount = 5000
+		amount = 2000
+		maxAmount = 2000
 		flowState = True
 		isTweakable = True
 		hideFlow = False
