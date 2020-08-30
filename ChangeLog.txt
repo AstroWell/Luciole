@@ -1,6 +1,7 @@
-Luciole 1.4.1 [2020-08-]
+Luciole 1.5 [2020-09-]
 ------------------------
 
+	- New Custom Vintage Suit (Need 1.10 & MH dlc)
 	- Fix Inline chute overheating
 	
 Luciole 1.4 [2020-08-05]
