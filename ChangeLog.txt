@@ -3,6 +3,7 @@ Luciole 1.5 [2020-09-]
 
 	- New Custom Classic Suit (Need KSP 1.10)
 	- New Custom Vintage Suit (Need KSP 1.10 & MH dlc)
+	- New Custom Future Suit (Need KSP 1.10 & BG dlc)
 	- Fix Inline chute overheating
 	
 Luciole 1.4 [2020-08-05]
