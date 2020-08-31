@@ -1,4 +1,4 @@
-Luciole 1.5 [2020-09-]
+Luciole 1.5 [2020-08-31]
 ------------------------
 
 	- New Custom Classic Suit (Need KSP 1.10)
