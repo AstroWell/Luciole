@@ -3,6 +3,8 @@ Luciole 1.5.1 [2021-01-22]
 
 	- Add Waterfall Support
 	- Fix for KSP 1.11
+	- Support new 1.11 inventory system
+	- Include Thumbs picture for inventory
 
 Luciole 1.5 [2020-08-31]
 ------------------------
