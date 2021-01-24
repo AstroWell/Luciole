@@ -1,10 +1,10 @@
-ship = Luciole - Multi Relay Sat
-version = 1.10.0
+ship = Multi Relay Sats
+version = 1.11.0
 description = No Description.
 type = None
-size = 0.721480846,1.82584476,0.723166704
+size = 0.721480846,1.82584572,0.723166704
 steamPublishedFileId = 0
-persistentId = 105484963
+persistentId = 3921777385
 rot = 0,0,0,0
 missionFlag = 
 vesselType = Debris
@@ -14,12 +14,12 @@ OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
 PART
 {
-	part = .Luciole.Fairing.07_4294250194
+	part = .Luciole.Fairing.07_4294175514
 	partName = Part
 	persistentId = 3097862078
-	pos = -0.0995555967,9.01553154,0.648759127
+	pos = -0.138241529,14.8865919,0.426267058
 	attPos = 0,0,0
-	attPos0 = -0.0995555967,9.01553154,0.648759127
+	attPos0 = -0.138241529,14.8865919,0.426267058
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -31,15 +31,15 @@ PART
 	resPri = 0
 	dstg = 0
 	sidx = 0
-	sqor = 5
+	sqor = 0
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 41.330349
 	modMass = 0.0413303487
 	modSize = 0,0,0
-	link = .Luciole.Payload.Adapter_4294238418
-	attN = top,.Luciole.Payload.Adapter_4294238418_0|0.140000001|0_0|1|0_0|0.140000001|0_0|1|0
+	link = .Luciole.Payload.Adapter_4294175408
+	attN = top,.Luciole.Payload.Adapter_4294175408_0|0.140000001|0_0|1|0_0|0.140000001|0_0|1|0
 	attN = bottom,Null_0_0|-0.104272|0_0|-1|0_0|-0.104272|0_0|-1|0
 	EVENTS
 	{
@@ -49,17 +49,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -84,7 +81,6 @@ PART
 			DeployFairingAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		XSECTION
@@ -167,12 +163,10 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -184,6 +178,23 @@ PART
 		name = ModuleSAS
 		isEnabled = True
 		standaloneToggle = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -209,92 +220,74 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		MechJebLocalSettings
@@ -418,6 +411,66 @@ PART
 				BankAngle = 30
 				unlockParts = 
 				unlockTechs = 
+				AccKp
+				{
+					_val = 0.5
+					_text = 0.5
+				}
+				AccKi
+				{
+					_val = 0.5
+					_text = 0.5
+				}
+				AccKd
+				{
+					_val = 0.0050000000000000001
+					_text = 0.005
+				}
+				PitKp
+				{
+					_val = 2
+					_text = 2
+				}
+				PitKi
+				{
+					_val = 1
+					_text = 1
+				}
+				PitKd
+				{
+					_val = 0.0050000000000000001
+					_text = 0.005
+				}
+				RolKp
+				{
+					_val = 0.5
+					_text = 0.5
+				}
+				RolKi
+				{
+					_val = 0.02
+					_text = 0.02
+				}
+				RolKd
+				{
+					_val = 0.5
+					_text = 0.5
+				}
+				YawKp
+				{
+					_val = 1
+					_text = 1
+				}
+				YawKi
+				{
+					_val = 0.25
+					_text = 0.25
+				}
+				YawKd
+				{
+					_val = 0.02
+					_text = 0.02
+				}
 				YawLimit
 				{
 					_val = 10
@@ -774,6 +827,9 @@ PART
 				HybridController
 				{
 				}
+				BetterController
+				{
+				}
 			}
 			MechJebModuleStagingController
 			{
@@ -820,10 +876,10 @@ PART
 }
 PART
 {
-	part = .Luciole.Payload.Adapter_4294238418
+	part = .Luciole.Payload.Adapter_4294175408
 	partName = Part
 	persistentId = 579945730
-	pos = -0.0995555967,9.19833469,0.648759127
+	pos = -0.138241529,15.0693951,0.426267058
 	attPos = 0,0,0
 	attPos0 = 0,0.182803154,0
 	rot = 0,0,0,1
@@ -844,15 +900,15 @@ PART
 	modCost = 30
 	modMass = 0.00400000019
 	modSize = 0,0,0
-	link = .Luciole.Decoupler.0125_4294231364
-	link = .Luciole.Decoupler.0125_4294230234
-	link = .Luciole.Decoupler.0125_4294226774
-	attN = top,.Luciole.Decoupler.0125_4294226774_0|0.560388029|0_0|1|0_0|0.560388029|0_0|1|0
+	link = .Luciole.Decoupler.0125_4294175290
+	link = .Luciole.Decoupler.0125_4294174704
+	link = .Luciole.Decoupler.0125_4294174118
+	attN = top,.Luciole.Decoupler.0125_4294174118_0|0.560388029|0_0|1|0_0|0.560388029|0_0|1|0
 	attN = top1,Null_0_0.170000002|0.0179340001|0_0|1|0_0.170000002|0.0179340001|0_0|1|0
-	attN = top2,.Luciole.Decoupler.0125_4294231364_0|0.0179340001|-0.170000002_0|1|0_0|0.0179340001|-0.170000002_0|1|0
+	attN = top2,.Luciole.Decoupler.0125_4294175290_0|0.0179340001|-0.170000002_0|1|0_0|0.0179340001|-0.170000002_0|1|0
 	attN = top3,Null_0_-0.170000002|0.0179340001|0_0|1|0_-0.170000002|0.0179340001|0_0|1|0
-	attN = top4,.Luciole.Decoupler.0125_4294230234_0|0.0179340001|0.170000002_0|1|0_0|0.0179340001|0.170000002_0|1|0
-	attN = bottom,.Luciole.Fairing.07_4294250194_0|-0.0428030007|0_0|-1|0_0|-0.0428030007|0_0|-1|0
+	attN = top4,.Luciole.Decoupler.0125_4294174704_0|0.0179340001|0.170000002_0|1|0_0|0.0179340001|0.170000002_0|1|0
+	attN = bottom,.Luciole.Fairing.07_4294175514_0|-0.0428030007|0_0|-1|0_0|-0.0428030007|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -861,17 +917,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -894,13 +947,30 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
-	part = .Luciole.Decoupler.0125_4294231364
+	part = .Luciole.Decoupler.0125_4294175290
 	partName = Part
 	persistentId = 1722916083
-	pos = -0.0995555967,9.2192688,0.47875911
+	pos = -0.138241529,15.0903292,0.256267041
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,-0.170000002
 	rot = 0,0,0,1
@@ -910,10 +980,10 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -5
+	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 0
+	sidx = 1
 	sqor = 0
 	sepI = 0
 	attm = 0
@@ -921,9 +991,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.cubesat.6u.0625_4294296666
-	attN = top,.Luciole.cubesat.6u.0625_4294296666_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
-	attN = bottom,.Luciole.Payload.Adapter_4294238418_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
+	link = .Luciole.cubesat.6u.0625_4294175234
+	attN = top,.Luciole.cubesat.6u.0625_4294175234_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
+	attN = bottom,.Luciole.Payload.Adapter_4294175408_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -932,17 +1002,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -963,7 +1030,6 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -984,18 +1050,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1004,10 +1084,10 @@ PART
 }
 PART
 {
-	part = .Luciole.cubesat.6u.0625_4294296666
+	part = .Luciole.cubesat.6u.0625_4294175234
 	partName = Part
 	persistentId = 1994552612
-	pos = -0.0995555967,9.44442749,0.47875911
+	pos = -0.138241529,15.3154879,0.256267041
 	attPos = 0,0,0
 	attPos0 = 0,0.225158691,0
 	rot = 0,0,0,1
@@ -1017,7 +1097,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -5
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -1028,12 +1108,12 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.MarCO.XBand_4294286192
-	link = .Luciole.MarCO.UHF_4294285302
-	link = .Luciole.SolarPanel.1_4294278458
-	link = .Luciole.SolarPanel.1_4294278284
+	link = .Luciole.MarCO.XBand_4294175092
+	link = .Luciole.MarCO.UHF_4294175020
+	link = .Luciole.SolarPanel.1_4294174964
+	link = .Luciole.SolarPanel.1_4294174834
 	attN = top,Null_0_0|0.222158|0_0|1|0_0|0.222158|0_0|1|0
-	attN = bottom,.Luciole.Decoupler.0125_4294231364_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
+	attN = bottom,.Luciole.Decoupler.0125_4294175290_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -1042,17 +1122,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1074,12 +1151,10 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1103,22 +1178,18 @@ PART
 			CycleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Activate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Deactivate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Toggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1154,7 +1225,6 @@ PART
 			OpenKerbNetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1175,7 +1245,6 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1202,19 +1271,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1241,19 +1307,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1280,19 +1343,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1319,19 +1379,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1354,12 +1411,10 @@ PART
 			DeployAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ResetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1385,6 +1440,23 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = MechJebCore
 		isEnabled = True
 		running = True
@@ -1397,92 +1469,74 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1522,10 +1576,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.XBand_4294286192
+	part = .Luciole.MarCO.XBand_4294175092
 	partName = Part
 	persistentId = 2309023532
-	pos = -0.0995555967,9.44646168,0.397009015
+	pos = -0.138241529,15.317522,0.174516946
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 9.41569667E-08,0.707106829,-0.707106829,9.41569667E-08
@@ -1535,7 +1589,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -5
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -1546,7 +1600,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294296666,Collider,0|0|0,0|-1|0,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294175234,Collider,0|0|0,0|-1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -1555,17 +1609,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1588,17 +1639,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1619,8 +1667,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1629,10 +1693,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.UHF_4294285302
+	part = .Luciole.MarCO.UHF_4294175020
 	partName = Part
 	persistentId = 3305902842
-	pos = -0.0995555967,9.49898148,0.560347795
+	pos = -0.138241529,15.3700418,0.337855726
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 8.15358112E-24,1,-6.12323559E-17,1.33158053E-07
@@ -1642,7 +1706,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -5
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -1653,7 +1717,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294296666,Collider,0|0|0,0|0|-1,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294175234,Collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -1662,17 +1726,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1695,17 +1756,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1726,8 +1784,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1736,10 +1810,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294278458
+	part = .Luciole.SolarPanel.1_4294174964
 	partName = Part
 	persistentId = 3260007728
-	pos = -0.29025802,9.64515591,0.47875911
+	pos = -0.328943968,15.5162163,0.256267041
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = 0.49999997,-0.50000006,0.50000006,0.49999997
@@ -1749,7 +1823,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -5
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -1760,8 +1834,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294278284
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294296666,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294174834
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294175234,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -1770,17 +1844,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1794,7 +1865,7 @@ PART
 		launchUT = -1
 		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1805,18 +1876,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1825,10 +1910,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294278284
+	part = .Luciole.SolarPanel.1_4294174834
 	partName = Part
 	persistentId = 1043788257
-	pos = 0.0911468118,9.64515591,0.47875911
+	pos = 0.0524608791,15.5162163,0.256267041
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.50000006,0.5,-0.5,0.50000006
@@ -1838,7 +1923,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -5
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -1849,8 +1934,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294278458
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294296666,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294174964
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294175234,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -1859,17 +1944,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1883,7 +1965,7 @@ PART
 		launchUT = -1
 		currentRotation = (6.12323492E-17, 1, -6.12323492E-17, 1.33158053E-07)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1894,18 +1976,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1914,10 +2010,10 @@ PART
 }
 PART
 {
-	part = .Luciole.Decoupler.0125_4294230234
+	part = .Luciole.Decoupler.0125_4294174704
 	partName = Part
 	persistentId = 3945460945
-	pos = -0.0995555967,9.2192688,0.818759143
+	pos = -0.138241529,15.0903292,0.596267104
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,0.170000017
 	rot = 0,0,0,1
@@ -1927,20 +2023,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -4
+	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 0
-	sqor = 1
-	sepI = 1
+	sidx = 2
+	sqor = 0
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.cubesat.6u.0625_4294229966
-	attN = top,.Luciole.cubesat.6u.0625_4294229966_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
-	attN = bottom,.Luciole.Payload.Adapter_4294238418_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
+	link = .Luciole.cubesat.6u.0625_4294174648
+	attN = top,.Luciole.cubesat.6u.0625_4294174648_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
+	attN = bottom,.Luciole.Payload.Adapter_4294175408_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -1949,17 +2045,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1980,7 +2073,6 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2001,18 +2093,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2021,10 +2127,10 @@ PART
 }
 PART
 {
-	part = .Luciole.cubesat.6u.0625_4294229966
+	part = .Luciole.cubesat.6u.0625_4294174648
 	partName = Part
 	persistentId = 2584529942
-	pos = -0.0995555967,9.44442749,0.818759143
+	pos = -0.138241529,15.3154879,0.596267104
 	attPos = 0,0,0
 	attPos0 = 0,0.225158691,0
 	rot = 0,-1,0,0
@@ -2034,23 +2140,23 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -4
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.MarCO.XBand_4294229826
-	link = .Luciole.MarCO.UHF_4294229752
-	link = .Luciole.SolarPanel.1_4294229694
-	link = .Luciole.SolarPanel.1_4294229562
+	link = .Luciole.MarCO.XBand_4294174506
+	link = .Luciole.MarCO.UHF_4294174434
+	link = .Luciole.SolarPanel.1_4294174378
+	link = .Luciole.SolarPanel.1_4294174248
 	attN = top,Null_0_0|0.222158|0_0|1|0_0|0.222158|0_0|1|0
-	attN = bottom,.Luciole.Decoupler.0125_4294230234_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
+	attN = bottom,.Luciole.Decoupler.0125_4294174704_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -2059,17 +2165,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2091,12 +2194,10 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2120,22 +2221,18 @@ PART
 			CycleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Activate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Deactivate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Toggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2171,7 +2268,6 @@ PART
 			OpenKerbNetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2192,7 +2288,6 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2219,19 +2314,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2258,19 +2350,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2297,19 +2386,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2336,19 +2422,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2371,12 +2454,10 @@ PART
 			DeployAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ResetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2402,6 +2483,23 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = MechJebCore
 		isEnabled = True
 		running = True
@@ -2414,92 +2512,74 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2539,10 +2619,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.XBand_4294229826
+	part = .Luciole.MarCO.XBand_4294174506
 	partName = Part
 	persistentId = 1320418570
-	pos = -0.0995555967,9.44646168,0.900509238
+	pos = -0.138241529,15.317522,0.678017139
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 0.707106829,-9.41569667E-08,9.41569667E-08,0.707106829
@@ -2552,18 +2632,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -4
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294229966,Collider,0|0|0,0|-1|0,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294174648,Collider,0|0|0,0|-1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -2572,17 +2652,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2605,17 +2682,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2636,8 +2710,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2646,10 +2736,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.UHF_4294229752
+	part = .Luciole.MarCO.UHF_4294174434
 	partName = Part
 	persistentId = 3882985407
-	pos = -0.0995555967,9.49898148,0.737170458
+	pos = -0.138241529,15.3700418,0.514678359
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 6.12323559E-17,-1.33158053E-07,8.15358112E-24,1
@@ -2659,18 +2749,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -4
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294229966,Collider,0|0|0,0|0|-1,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294174648,Collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -2679,17 +2769,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2712,17 +2799,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2743,8 +2827,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2753,10 +2853,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294229694
+	part = .Luciole.SolarPanel.1_4294174378
 	partName = Part
 	persistentId = 1196318240
-	pos = 0.0911468267,9.64515591,0.818759143
+	pos = 0.052460894,15.5162163,0.596267104
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = -0.50000006,-0.49999997,0.49999997,-0.50000006
@@ -2766,19 +2866,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -4
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294229562
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294229966,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294174248
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294174648,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -2787,17 +2887,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2822,18 +2919,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2842,10 +2953,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294229562
+	part = .Luciole.SolarPanel.1_4294174248
 	partName = Part
 	persistentId = 3662789373
-	pos = -0.29025799,9.64515591,0.818759203
+	pos = -0.328943908,15.5162163,0.596267104
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.5,-0.50000006,0.50000006,0.5
@@ -2855,19 +2966,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -4
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294229694
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294229966,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294174378
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294174648,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -2876,17 +2987,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2911,18 +3019,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2931,10 +3053,10 @@ PART
 }
 PART
 {
-	part = .Luciole.Decoupler.0125_4294226774
+	part = .Luciole.Decoupler.0125_4294174118
 	partName = Part
 	persistentId = 1074715891
-	pos = -0.0995555967,9.76172256,0.648759127
+	pos = -0.138241529,15.6327829,0.426267058
 	attPos = 0,0,0
 	attPos0 = 0,0.563387871,0
 	rot = 0,0,0,1
@@ -2944,20 +3066,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -3
+	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 0
-	sqor = 2
-	sepI = 2
+	sidx = 3
+	sqor = 0
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.Payload.Adapter_4294228490
-	attN = top,.Luciole.Payload.Adapter_4294228490_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
-	attN = bottom,.Luciole.Payload.Adapter_4294238418_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
+	link = .Luciole.Payload.Adapter_4294174062
+	attN = top,.Luciole.Payload.Adapter_4294174062_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
+	attN = bottom,.Luciole.Payload.Adapter_4294175408_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -2966,17 +3088,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2997,7 +3116,6 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3018,18 +3136,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -3038,10 +3170,10 @@ PART
 }
 PART
 {
-	part = .Luciole.Payload.Adapter_4294228490
+	part = .Luciole.Payload.Adapter_4294174062
 	partName = Part
 	persistentId = 3330756897
-	pos = -0.0995555967,9.80752563,0.648759127
+	pos = -0.138241529,15.678586,0.426267058
 	attPos = 0,0,0
 	attPos0 = 0,0.0458030701,0
 	rot = 0,0,0,1
@@ -3051,25 +3183,25 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -3
+	istg = 0
 	resPri = 0
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.Decoupler.0125_4294228378
-	link = .Luciole.Decoupler.0125_4294227778
+	link = .Luciole.Decoupler.0125_4294173944
+	link = .Luciole.Decoupler.0125_4294173358
 	attN = top,Null_0_0|0.0179340001|0_0|1|0_0|0.0179340001|0_0|1|0
 	attN = top1,Null_0_0.170000002|0.0179340001|0_0|1|0_0.170000002|0.0179340001|0_0|1|0
-	attN = top2,.Luciole.Decoupler.0125_4294228378_0|0.0179340001|-0.170000002_0|1|0_0|0.0179340001|-0.170000002_0|1|0
+	attN = top2,.Luciole.Decoupler.0125_4294173944_0|0.0179340001|-0.170000002_0|1|0_0|0.0179340001|-0.170000002_0|1|0
 	attN = top3,Null_0_-0.170000002|0.0179340001|0_0|1|0_-0.170000002|0.0179340001|0_0|1|0
-	attN = top4,.Luciole.Decoupler.0125_4294227778_0|0.0179340001|0.170000002_0|1|0_0|0.0179340001|0.170000002_0|1|0
-	attN = bottom,.Luciole.Decoupler.0125_4294226774_0|-0.0428030007|0_0|-1|0_0|-0.0428030007|0_0|-1|0
+	attN = top4,.Luciole.Decoupler.0125_4294173358_0|0.0179340001|0.170000002_0|1|0_0|0.0179340001|0.170000002_0|1|0
+	attN = bottom,.Luciole.Decoupler.0125_4294174118_0|-0.0428030007|0_0|-1|0_0|-0.0428030007|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -3078,17 +3210,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3110,13 +3239,30 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
-	part = .Luciole.Decoupler.0125_4294228378
+	part = .Luciole.Decoupler.0125_4294173944
 	partName = Part
 	persistentId = 1920182163
-	pos = -0.0995555967,9.82845974,0.47875911
+	pos = -0.138241529,15.6995201,0.256267041
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,-0.170000002
 	rot = 0,0,0,1
@@ -3126,20 +3272,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -2
+	istg = 0
 	resPri = 0
 	dstg = 3
-	sidx = 0
-	sqor = 3
-	sepI = 3
+	sidx = 4
+	sqor = 0
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.cubesat.6u.0625_4294228314
-	attN = top,.Luciole.cubesat.6u.0625_4294228314_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
-	attN = bottom,.Luciole.Payload.Adapter_4294228490_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
+	link = .Luciole.cubesat.6u.0625_4294173888
+	attN = top,.Luciole.cubesat.6u.0625_4294173888_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
+	attN = bottom,.Luciole.Payload.Adapter_4294174062_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -3148,17 +3294,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3179,7 +3322,6 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3200,18 +3342,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -3220,10 +3376,10 @@ PART
 }
 PART
 {
-	part = .Luciole.cubesat.6u.0625_4294228314
+	part = .Luciole.cubesat.6u.0625_4294173888
 	partName = Part
 	persistentId = 1082247536
-	pos = -0.0995555967,10.0536184,0.47875911
+	pos = -0.138241529,15.9246778,0.256267041
 	attPos = 0,0,0
 	attPos0 = 0,0.225158691,0
 	rot = 0,0,0,1
@@ -3233,23 +3389,23 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -2
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.MarCO.XBand_4294228174
-	link = .Luciole.MarCO.UHF_4294228100
-	link = .Luciole.SolarPanel.1_4294228042
-	link = .Luciole.SolarPanel.1_4294227910
+	link = .Luciole.MarCO.XBand_4294173746
+	link = .Luciole.MarCO.UHF_4294173674
+	link = .Luciole.SolarPanel.1_4294173618
+	link = .Luciole.SolarPanel.1_4294173488
 	attN = top,Null_0_0|0.222158|0_0|1|0_0|0.222158|0_0|1|0
-	attN = bottom,.Luciole.Decoupler.0125_4294228378_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
+	attN = bottom,.Luciole.Decoupler.0125_4294173944_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -3258,17 +3414,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3290,12 +3443,10 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3319,22 +3470,18 @@ PART
 			CycleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Activate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Deactivate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Toggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3370,7 +3517,6 @@ PART
 			OpenKerbNetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3391,7 +3537,6 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3418,19 +3563,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3457,19 +3599,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3496,19 +3635,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3535,19 +3671,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3570,12 +3703,10 @@ PART
 			DeployAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ResetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3601,6 +3732,23 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = MechJebCore
 		isEnabled = True
 		running = True
@@ -3613,92 +3761,74 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3738,10 +3868,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.XBand_4294228174
+	part = .Luciole.MarCO.XBand_4294173746
 	partName = Part
 	persistentId = 2865907637
-	pos = -0.0995555967,10.0556526,0.397009015
+	pos = -0.138241529,15.926712,0.174516946
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 9.41569667E-08,0.707106829,-0.707106829,9.41569667E-08
@@ -3751,18 +3881,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -2
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294228314,Collider,0|0|0,0|-1|0,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173888,Collider,0|0|0,0|-1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -3771,17 +3901,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3804,17 +3931,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3835,8 +3959,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -3845,10 +3985,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.UHF_4294228100
+	part = .Luciole.MarCO.UHF_4294173674
 	partName = Part
 	persistentId = 2688387712
-	pos = -0.0995555967,10.1081724,0.560347795
+	pos = -0.138241529,15.9792318,0.337855726
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 8.15358112E-24,1,-6.12323559E-17,1.33158053E-07
@@ -3858,18 +3998,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -2
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294228314,Collider,0|0|0,0|0|-1,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173888,Collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -3878,17 +4018,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3911,17 +4048,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3942,8 +4076,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -3952,10 +4102,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294228042
+	part = .Luciole.SolarPanel.1_4294173618
 	partName = Part
 	persistentId = 1405794828
-	pos = -0.29025802,10.2543468,0.47875911
+	pos = -0.328943968,16.1254063,0.256267041
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = 0.49999997,-0.50000006,0.50000006,0.49999997
@@ -3965,19 +4115,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -2
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294227910
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294228314,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294173488
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173888,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -3986,17 +4136,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4021,18 +4168,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -4041,10 +4202,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294227910
+	part = .Luciole.SolarPanel.1_4294173488
 	partName = Part
 	persistentId = 767081847
-	pos = 0.0911468118,10.2543468,0.47875911
+	pos = 0.0524608791,16.1254063,0.256267041
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.50000006,0.5,-0.5,0.50000006
@@ -4054,19 +4215,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -2
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294228042
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294228314,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294173618
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173888,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -4075,17 +4236,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4110,18 +4268,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -4130,10 +4302,10 @@ PART
 }
 PART
 {
-	part = .Luciole.Decoupler.0125_4294227778
+	part = .Luciole.Decoupler.0125_4294173358
 	partName = Part
 	persistentId = 1213685699
-	pos = -0.0995555967,9.82845974,0.818759143
+	pos = -0.138241529,15.6995201,0.596267104
 	attPos = 0,0,0
 	attPos0 = 0,0.0209341049,0.170000017
 	rot = 0,0,0,1
@@ -4143,20 +4315,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 3
-	sidx = 0
-	sqor = 4
-	sepI = 4
+	sidx = 5
+	sqor = 0
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.cubesat.6u.0625_4294227714
-	attN = top,.Luciole.cubesat.6u.0625_4294227714_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
-	attN = bottom,.Luciole.Payload.Adapter_4294228490_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
+	link = .Luciole.cubesat.6u.0625_4294173302
+	attN = top,.Luciole.cubesat.6u.0625_4294173302_0|0.00300000003|0_0|1|0_0|0.00300000003|0_0|1|0
+	attN = bottom,.Luciole.Payload.Adapter_4294174062_0|-0.00300000003|0_0|-1|0_0|-0.00300000003|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -4165,17 +4337,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4196,7 +4365,6 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4217,18 +4385,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -4237,10 +4419,10 @@ PART
 }
 PART
 {
-	part = .Luciole.cubesat.6u.0625_4294227714
+	part = .Luciole.cubesat.6u.0625_4294173302
 	partName = Part
 	persistentId = 2464578586
-	pos = -0.0995555967,10.0536184,0.818759143
+	pos = -0.138241529,15.9246778,0.596267104
 	attPos = 0,0,0
 	attPos0 = 0,0.225158691,0
 	rot = 0,-1,0,0
@@ -4250,23 +4432,23 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 4
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.MarCO.XBand_4294227568
-	link = .Luciole.MarCO.UHF_4294227494
-	link = .Luciole.SolarPanel.1_4294227436
-	link = .Luciole.SolarPanel.1_4294227304
+	link = .Luciole.MarCO.XBand_4294173160
+	link = .Luciole.MarCO.UHF_4294173088
+	link = .Luciole.SolarPanel.1_4294173032
+	link = .Luciole.SolarPanel.1_4294172902
 	attN = top,Null_0_0|0.222158|0_0|1|0_0|0.222158|0_0|1|0
-	attN = bottom,.Luciole.Decoupler.0125_4294227778_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
+	attN = bottom,.Luciole.Decoupler.0125_4294173358_0|-0.222158|0_0|-1|0_0|-0.222158|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -4275,17 +4457,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4307,12 +4486,10 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4336,22 +4513,18 @@ PART
 			CycleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Activate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Deactivate
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			Toggle
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4387,7 +4560,6 @@ PART
 			OpenKerbNetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4408,7 +4580,6 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4435,19 +4606,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4474,19 +4642,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4513,19 +4678,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4552,19 +4714,16 @@ PART
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
 				active = False
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4587,12 +4746,10 @@ PART
 			DeployAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ResetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4618,6 +4775,23 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = MechJebCore
 		isEnabled = True
 		running = True
@@ -4630,92 +4804,74 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4755,10 +4911,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.XBand_4294227568
+	part = .Luciole.MarCO.XBand_4294173160
 	partName = Part
 	persistentId = 57104985
-	pos = -0.0995555967,10.0556526,0.900509238
+	pos = -0.138241529,15.926712,0.678017139
 	attPos = 0,0,0
 	attPos0 = 0,0.00203418732,-0.0817500949
 	rot = 0.707106829,-9.41569667E-08,9.41569667E-08,0.707106829
@@ -4768,18 +4924,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 4
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294227714,Collider,0|0|0,0|-1|0,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173302,Collider,0|0|0,0|-1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -4788,17 +4944,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4821,17 +4974,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4852,8 +5002,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -4862,10 +5028,10 @@ PART
 }
 PART
 {
-	part = .Luciole.MarCO.UHF_4294227494
+	part = .Luciole.MarCO.UHF_4294173088
 	partName = Part
 	persistentId = 3314548071
-	pos = -0.0995555967,10.1081724,0.737170458
+	pos = -0.138241529,15.9792318,0.514678359
 	attPos = 0,0,0
 	attPos0 = 0,0.0545539856,0.0815887004
 	rot = 6.12323559E-17,-1.33158053E-07,8.15358112E-24,1
@@ -4875,18 +5041,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 4
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294227714,Collider,0|0|0,0|0|-1,0|0|0
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173302,Collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -4895,17 +5061,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4928,17 +5091,14 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4959,8 +5119,24 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -4969,10 +5145,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294227436
+	part = .Luciole.SolarPanel.1_4294173032
 	partName = Part
 	persistentId = 3942674616
-	pos = 0.0911468267,10.2543468,0.818759143
+	pos = 0.052460894,16.1254063,0.596267104
 	attPos = 0,0,0
 	attPos0 = -0.190702423,0.200728416,6.51925847E-09
 	rot = -0.50000006,-0.49999997,0.49999997,-0.50000006
@@ -4982,19 +5158,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 4
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294227304
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294227714,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294172902
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173302,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -5003,17 +5179,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -5038,18 +5211,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -5058,10 +5245,10 @@ PART
 }
 PART
 {
-	part = .Luciole.SolarPanel.1_4294227304
+	part = .Luciole.SolarPanel.1_4294172902
 	partName = Part
 	persistentId = 1126127802
-	pos = -0.29025799,10.2543468,0.818759203
+	pos = -0.328943908,16.1254063,0.596267104
 	attPos = 0,0,0
 	attPos0 = 0.190702409,0.200728416,-2.32830644E-08
 	rot = 0.5,-0.50000006,0.50000006,0.5
@@ -5071,19 +5258,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 4
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = .Luciole.SolarPanel.1_4294227436
-	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294227714,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
+	sym = .Luciole.SolarPanel.1_4294173032
+	srfN = srfAttach,.Luciole.cubesat.6u.0625_4294173302,Collider,0|-0.0199999996|0,0|-1|0,0|-0.0199999996|0
 	EVENTS
 	{
 	}
@@ -5092,17 +5279,14 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -5127,18 +5311,32 @@ PART
 			ExtendPanelsAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
 			RetractAction
 			{
 				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
