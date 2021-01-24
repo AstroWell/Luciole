@@ -1,4 +1,4 @@
-Luciole 1.5.1 [2021-01-24]
+Luciole 1.6 [2021-01-25]
 -------------------------
 
 	- Add Waterfall Support
@@ -6,6 +6,7 @@ Luciole 1.5.1 [2021-01-24]
 	- Support new 1.11 inventory system
 	- Include Thumbs picture for inventory
 	- New Subassemblies craft files
+	- New CubeSat Ion Engine
 
 Luciole 1.5 [2020-08-31]
 ------------------------
