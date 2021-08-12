@@ -1,10 +1,10 @@
 ship = Luciole Heavy
-version = 1.11.0
+version = 1.12.2
 description = No Description.
 type = None
-size = 8.61120319,9.85886765,7.61827421
+size = 8.61120319,9.85886765,7.61827469
 steamPublishedFileId = 0
-persistentId = 2733449487
+persistentId = 785720943
 rot = 0,0,0,0
 missionFlag = 
 vesselType = Debris
@@ -16,10 +16,10 @@ PART
 {
 	part = .Luciole.Avionics.0625_4294321246
 	partName = Part
-	persistentId = 651077017
-	pos = -1.47015846,12.4381008,0.66915369
+	persistentId = 1151034522
+	pos = -1.02101064,10.7855644,1.00661206
 	attPos = 0,0,0
-	attPos0 = -1.47015846,12.4381008,0.66915369
+	attPos0 = -1.02101064,10.7855644,1.00661206
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -29,7 +29,7 @@ PART
 	rigidAttachment = False
 	istg = 6
 	resPri = 0
-	dstg = 0
+	dstg = 4
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -49,14 +49,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -78,10 +81,12 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -105,18 +110,22 @@ PART
 			CycleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			Activate
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			Deactivate
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			Toggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -137,6 +146,7 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -181,6 +191,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -206,74 +217,92 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -326,8 +355,8 @@ PART
 {
 	part = .Luciole.Monoprop.0625.nano_4293716132
 	partName = Part
-	persistentId = 3293536297
-	pos = -1.47015846,12.2631006,0.66915369
+	persistentId = 4138570292
+	pos = -1.02101064,10.6105642,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.175000191,0
 	rot = 0,0,0,1
@@ -335,11 +364,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 6
 	resPri = 0
-	dstg = 0
+	dstg = 4
 	sidx = -1
 	sqor = -1
 	sepI = 1
@@ -359,14 +388,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -394,6 +426,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -421,8 +454,8 @@ PART
 {
 	part = .Luciole.KickStage.0625_4293725330
 	partName = Part
-	persistentId = 3472354426
-	pos = -1.47015846,12.0769386,0.66915369
+	persistentId = 4273640197
+	pos = -1.02101064,10.4244022,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.186161995,0
 	rot = 0,0,0,1
@@ -430,11 +463,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Root
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 4
 	resPri = 0
-	dstg = 0
+	dstg = 4
 	sidx = 0
 	sqor = 3
 	sepI = 1
@@ -454,14 +487,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -490,18 +526,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -549,10 +589,12 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -576,18 +618,22 @@ PART
 			CycleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			Activate
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			Deactivate
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			Toggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -608,6 +654,7 @@ PART
 			StartTransmissionAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -646,6 +693,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -691,6 +739,7 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -728,6 +777,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -773,6 +823,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -798,75 +849,108 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -918,8 +1002,8 @@ PART
 {
 	part = .Luciole.Decoupler.0625_4293708644
 	partName = Part
-	persistentId = 3615293832
-	pos = -1.47015846,11.872757,0.66915369
+	persistentId = 1905469462
+	pos = -1.02101064,10.2202206,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.204181671,0
 	rot = 0,0,0,1
@@ -927,11 +1011,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
-	dstg = 1
+	dstg = 5
 	sidx = 0
 	sqor = 4
 	sepI = 4
@@ -951,14 +1035,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -979,6 +1066,7 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -999,14 +1087,17 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1035,6 +1126,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1051,8 +1143,8 @@ PART
 {
 	part = .Luciole.UpperStage.0625_4294488750
 	partName = Part
-	persistentId = 1478469083
-	pos = -1.47015846,11.1102571,0.66915369
+	persistentId = 3497984787
+	pos = -1.02101064,9.45772076,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.762499809,0
 	rot = 0,0,0,1
@@ -1060,11 +1152,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
-	dstg = 2
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 4
@@ -1088,14 +1180,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1140,6 +1235,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1178,8 +1274,8 @@ PART
 {
 	part = .Luciole.Navier.Vaccum.Engine.0625_4294488604
 	partName = Part
-	persistentId = 1907925699
-	pos = -1.47015846,10.1053314,0.66915369
+	persistentId = 1495305080
+	pos = -1.02101064,8.45279503,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-1.00492573,0
 	rot = 0,0,0,1
@@ -1187,11 +1283,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 7
 	resPri = 0
-	dstg = 2
+	dstg = 6
 	sidx = 0
 	sqor = 6
 	sepI = 4
@@ -1211,14 +1307,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1247,18 +1346,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -1325,26 +1428,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1382,6 +1491,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1420,6 +1530,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1447,6 +1558,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1463,8 +1590,8 @@ PART
 {
 	part = .Luciole.Decoupler.0625_4294484514
 	partName = Part
-	persistentId = 4054303234
-	pos = -1.47015846,9.57283211,0.66915369
+	persistentId = 536931609
+	pos = -1.02101064,7.92029572,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.53249979,0
 	rot = 0,0,0,1
@@ -1472,11 +1599,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Off
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 3
+	dstg = 7
 	sidx = 0
 	sqor = 7
 	sepI = 7
@@ -1485,9 +1612,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.FirstStage.0625_4294487418
+	link = .Luciole.UpperStage.0625.nano_4293907632
 	attN = top,.Luciole.Navier.Vaccum.Engine.0625_4294488604_0|0.0125000002|0_0|1|0_0|0.0125000002|0_0|1|0
-	attN = bottom,.Luciole.FirstStage.0625_4294487418_0|-0.0125000002|0_0|-1|0_0|-0.0125000002|0_0|-1|0
+	attN = bottom,.Luciole.UpperStage.0625.nano_4293907632_0|-0.0125000002|0_0|-1|0_0|-0.0125000002|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -1496,14 +1623,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1524,6 +1654,7 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1544,14 +1675,17 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1580,6 +1714,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1594,12 +1729,122 @@ PART
 }
 PART
 {
+	part = .Luciole.UpperStage.0625.nano_4293907632
+	partName = Part
+	persistentId = 3197443159
+	pos = -1.02101064,7.72571373,1.00661206
+	attPos = 0,0,0
+	attPos0 = 0,-0.194581985,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Grandparent
+	rigidAttachment = False
+	istg = 8
+	resPri = 0
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 7
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = .Luciole.FirstStage.0625_4294487418
+	attN = top,.Luciole.Decoupler.0625_4294484514_0|0.182081997|0_0|1|0_0|0.182081997|0_0|1|0
+	attN = bottom,.Luciole.FirstStage.0625_4294487418_0|-0.191611007|0_0|-1|0_0|-0.191611007|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 9
+		maxAmount = 9
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 11
+		maxAmount = 11
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
 	part = .Luciole.FirstStage.0625_4294487418
 	partName = Part
-	persistentId = 1648685439
-	pos = -1.47015846,7.93533134,0.66915369
+	persistentId = 4133890533
+	pos = -1.02101064,5.90910244,1.00661206
 	attPos = 0,0,0
-	attPos0 = 0,-1.63750029,0
+	attPos0 = 0,-1.81661129,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -1609,7 +1854,7 @@ PART
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -1621,7 +1866,7 @@ PART
 	link = .Luciole.Engine.Mount_4294486098
 	link = .Luciole.RadialDecoupler_4293704662
 	link = .Luciole.RadialDecoupler_4293704412
-	attN = top,.Luciole.Decoupler.0625_4294484514_0|1.625|0_0|1|0_0|1.625|0_0|1|0
+	attN = top,.Luciole.UpperStage.0625.nano_4293907632_0|1.625|0_0|1|0_0|1.625|0_0|1|0
 	attN = bottom,.Luciole.Engine.Mount_4294486098_0|-1.625|0_0|-1|0_0|-1.625|0_0|-1|0
 	EVENTS
 	{
@@ -1631,14 +1876,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1683,6 +1931,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1721,8 +1970,8 @@ PART
 {
 	part = .Luciole.Engine.Mount_4294486098
 	partName = Part
-	persistentId = 3608702259
-	pos = -1.47015846,6.17489719,0.66915369
+	persistentId = 1354814409
+	pos = -1.02101064,4.14866829,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-1.76043415,0
 	rot = 0,0,0,1
@@ -1730,11 +1979,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Root
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -1774,14 +2023,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1820,6 +2072,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -1832,6 +2085,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1848,8 +2102,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294485252
 	partName = Part
-	persistentId = 2603933330
-	pos = -1.47015846,6.10368538,0.66915369
+	persistentId = 359892082
+	pos = -1.02101064,4.07745647,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.0712118149,0
 	rot = 0,0,0,1
@@ -1861,7 +2115,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 5
 	sqor = 10
 	sepI = 7
@@ -1880,14 +2134,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -1916,18 +2173,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -1975,6 +2236,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2016,26 +2278,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2073,6 +2341,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2117,6 +2386,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2133,8 +2418,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294484540
 	partName = Part
-	persistentId = 3257741807
-	pos = -1.28015828,6.10368538,0.66915375
+	persistentId = 4078273150
+	pos = -0.831010461,4.07745647,1.00661218
 	attPos = 0,0,0
 	attPos0 = 0.189999998,-0.0712118149,0
 	rot = 0,-0.382683575,0,-0.923879504
@@ -2146,7 +2431,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 0
 	sqor = 10
 	sepI = 7
@@ -2167,14 +2452,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2203,18 +2491,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -2254,6 +2546,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2295,26 +2588,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2352,6 +2651,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2396,6 +2696,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2412,8 +2728,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294484108
 	partName = Part
-	persistentId = 2772959571
-	pos = -1.56515849,6.10368538,0.504608691
+	persistentId = 324604655
+	pos = -1.11601067,4.07745647,0.842067063
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,-0.164545
 	rot = 0,0.991444886,0,0.130526111
@@ -2425,7 +2741,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 0
 	sqor = 10
 	sepI = 7
@@ -2446,14 +2762,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2482,18 +2801,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -2533,6 +2856,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2574,26 +2898,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2631,6 +2961,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2675,6 +3006,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2691,8 +3038,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294483874
 	partName = Part
-	persistentId = 3549179109
-	pos = -1.56515861,6.10368538,0.83369863
+	persistentId = 1334358891
+	pos = -1.11601079,4.07745647,1.171157
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,0.164545
 	rot = 0,0.60876137,0,-0.793353438
@@ -2704,7 +3051,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 0
 	sqor = 10
 	sepI = 7
@@ -2725,14 +3072,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -2761,18 +3111,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -2812,6 +3166,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2853,26 +3208,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2910,6 +3271,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -2954,6 +3316,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2970,8 +3348,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294483440
 	partName = Part
-	persistentId = 2842519275
-	pos = -1.37515843,6.10368538,0.504608691
+	persistentId = 1927907640
+	pos = -0.926010609,4.07745647,0.842067063
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,-0.164545
 	rot = 0,-0.793353438,0,-0.608761311
@@ -2983,7 +3361,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 1
 	sqor = 10
 	sepI = 7
@@ -3004,14 +3382,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3040,18 +3421,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -3091,6 +3476,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3132,26 +3518,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3189,6 +3581,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3233,6 +3626,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3249,8 +3658,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294481980
 	partName = Part
-	persistentId = 3580863413
-	pos = -1.66015863,6.10368538,0.66915381
+	persistentId = 1135229823
+	pos = -1.21101081,4.07745647,1.00661218
 	attPos = 0,0,0
 	attPos0 = -0.189999998,-0.0712118149,0
 	rot = 0,-0.923879504,0,0.382683635
@@ -3262,7 +3671,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 1
 	sqor = 10
 	sepI = 7
@@ -3283,14 +3692,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3319,18 +3731,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -3370,6 +3786,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3411,26 +3828,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3468,6 +3891,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3512,6 +3936,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3528,8 +3968,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4294481740
 	partName = Part
-	persistentId = 2554790751
-	pos = -1.37515831,6.10368538,0.83369863
+	persistentId = 1419108232
+	pos = -0.926010489,4.07745647,1.171157
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,0.164545
 	rot = 0,-0.130525976,0,0.991444886
@@ -3541,7 +3981,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 1
 	sqor = 10
 	sepI = 7
@@ -3562,14 +4002,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3598,18 +4041,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -3649,6 +4096,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3690,26 +4138,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3747,6 +4201,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -3791,6 +4246,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3807,8 +4278,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504676
 	partName = Part
-	persistentId = 2846683475
-	pos = -1.62312579,6.17868996,0.404206634
+	persistentId = 3923674358
+	pos = -1.17397785,4.15246105,0.741665006
 	attPos = 0,0,0
 	attPos0 = -0.152967274,0.00379276276,-0.264947057
 	rot = 0,0.49999997,0,-0.866025507
@@ -3820,7 +4291,7 @@ PART
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -3843,14 +4314,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3877,6 +4351,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3893,8 +4368,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504328
 	partName = Part
-	persistentId = 1409428761
-	pos = -1.77609301,6.17868996,0.66915369
+	persistentId = 3962380009
+	pos = -1.32694507,4.15246105,1.00661206
 	attPos = 0,0,0
 	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
 	rot = 0,-8.54142073E-08,0,-1
@@ -3906,7 +4381,7 @@ PART
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -3929,14 +4404,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -3963,6 +4441,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3979,8 +4458,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504284
 	partName = Part
-	persistentId = 3379358111
-	pos = -1.62312567,6.17868996,0.934100807
+	persistentId = 3668503923
+	pos = -1.17397785,4.15246105,1.27155924
 	attPos = 0,0,0
 	attPos0 = -0.152967229,0.00379276276,0.264947116
 	rot = 0,-0.500000119,0,-0.866025329
@@ -3992,7 +4471,7 @@ PART
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -4015,14 +4494,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4049,6 +4531,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4065,8 +4548,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504240
 	partName = Part
-	persistentId = 2725428797
-	pos = -1.31719112,6.17868996,0.934100747
+	persistentId = 3030526517
+	pos = -0.868043303,4.15246105,1.27155912
 	attPos = 0,0,0
 	attPos0 = 0.152967304,0.00379276276,0.264947057
 	rot = 0,-0.866025507,0,-0.49999994
@@ -4078,7 +4561,7 @@ PART
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -4101,14 +4584,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4135,6 +4621,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4151,8 +4638,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504196
 	partName = Part
-	persistentId = 497925120
-	pos = -1.16422391,6.17868996,0.66915369
+	persistentId = 1978349013
+	pos = -0.715076089,4.15246105,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
 	rot = 0,-1,0,1.37033339E-07
@@ -4164,7 +4651,7 @@ PART
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -4187,14 +4674,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4221,6 +4711,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4237,8 +4728,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294504152
 	partName = Part
-	persistentId = 3534115740
-	pos = -1.31719112,6.17868996,0.404206634
+	persistentId = 1781224390
+	pos = -0.868043303,4.15246105,0.741665006
 	attPos = 0,0,0
 	attPos0 = 0.152967289,0.00379276276,-0.264947057
 	rot = 0,-0.866025448,0,0.50000006
@@ -4250,7 +4741,7 @@ PART
 	rigidAttachment = False
 	istg = 8
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	sepI = 7
@@ -4273,14 +4764,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4307,6 +4801,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4323,8 +4818,8 @@ PART
 {
 	part = Luciole.LaunchPad_4292656078
 	partName = Part
-	persistentId = 3690158608
-	pos = -1.47015846,5.374897,0.66915369
+	persistentId = 3337857498
+	pos = -1.02101064,3.3486681,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.799999714,0
 	rot = 0,0,0,1
@@ -4336,7 +4831,7 @@ PART
 	rigidAttachment = False
 	istg = 10
 	resPri = 0
-	dstg = 4
+	dstg = 8
 	sidx = 0
 	sqor = 9
 	sepI = 9
@@ -4361,14 +4856,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4389,6 +4887,7 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4414,6 +4913,7 @@ PART
 			ToggleAction
 			{
 				actionGroup = Stage
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -4450,10 +4950,12 @@ PART
 			MakeReferenceToggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			HibernateToggle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4490,14 +4992,17 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4537,16 +5042,19 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4601,74 +5109,92 @@ PART
 			OnOrbitProgradeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRetrogradeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitNormalAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitAntinormalAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialInAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnOrbitRadialOutAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnKillRotationAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnDeactivateSmartASSAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandsomewhereAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnLandTargetAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnPanicAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronOffAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronKeepVertAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronZeroSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnTranslatronToggleHSAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			OnAscentAPToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4710,8 +5236,8 @@ PART
 {
 	part = .Luciole.RadialDecoupler_4293704662
 	partName = Part
-	persistentId = 693059790
-	pos = -1.78771234,8.05081177,0.66915369
+	persistentId = 3644793303
+	pos = -1.33856452,6.02458286,1.00661206
 	attPos = -0.0062058866,0,0
 	attPos0 = -0.311347991,0.115480423,1.85577882E-08
 	rot = 0,8.42937027E-08,0,1
@@ -4723,7 +5249,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 5
+	dstg = 9
 	sidx = 0
 	sqor = 8
 	sepI = 8
@@ -4743,14 +5269,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4771,6 +5300,7 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4791,14 +5321,17 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -4827,6 +5360,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4843,8 +5377,8 @@ PART
 {
 	part = .Luciole.FirstStage.0625_4293707024
 	partName = Part
-	persistentId = 2944928420
-	pos = -2.15025043,7.93861389,0.66915369
+	persistentId = 3005452757
+	pos = -1.7011025,5.91238499,1.00661206
 	attPos = 0,0.0543575287,0
 	attPos0 = -0.36253795,-0.166555405,-1.02384625E-07
 	rot = 0,-8.42937027E-08,0,1
@@ -4852,11 +5386,11 @@ PART
 	attRot0 = 0,-1.68587405E-07,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -4879,14 +5413,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -4931,6 +5468,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4969,8 +5507,8 @@ PART
 {
 	part = .Luciole.Engine.Mount_4293706934
 	partName = Part
-	persistentId = 1804669901
-	pos = -2.15025043,6.17817974,0.66915369
+	persistentId = 3666309602
+	pos = -1.7011025,4.15195084,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-1.76043415,0
 	rot = 0,-8.42937027E-08,0,1
@@ -4978,11 +5516,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Root
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -5022,14 +5560,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -5068,6 +5609,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5080,6 +5622,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5096,8 +5639,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706848
 	partName = Part
-	persistentId = 492607120
-	pos = -2.15025043,6.10696793,0.66915369
+	persistentId = 1796250320
+	pos = -1.7011025,4.08073902,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.0712118149,0
 	rot = 0,-8.42937027E-08,0,1
@@ -5109,7 +5652,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 2
 	sqor = 10
 	sepI = 8
@@ -5129,14 +5672,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -5165,18 +5711,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -5216,6 +5766,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5257,26 +5808,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5314,6 +5871,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5358,6 +5916,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5374,8 +5948,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706650
 	partName = Part
-	persistentId = 1821938691
-	pos = -1.96025014,6.10696793,0.66915381
+	persistentId = 1734360656
+	pos = -1.5111022,4.08073902,1.00661218
 	attPos = 0,0,0
 	attPos0 = 0.189999998,-0.0712118149,0
 	rot = 0,-0.382683516,0,-0.923879504
@@ -5387,7 +5961,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 3
 	sqor = 10
 	sepI = 8
@@ -5411,14 +5985,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -5447,18 +6024,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -5498,6 +6079,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5539,26 +6121,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5596,6 +6184,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5640,6 +6229,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5656,8 +6261,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706452
 	partName = Part
-	persistentId = 128761796
-	pos = -2.24525023,6.10696793,0.504608631
+	persistentId = 2556356400
+	pos = -1.7961024,4.08073902,0.842067003
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,-0.164545
 	rot = 0,0.991444886,0,0.130526185
@@ -5669,7 +6274,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 3
 	sqor = 10
 	sepI = 8
@@ -5693,14 +6298,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -5729,18 +6337,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -5780,6 +6392,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5821,26 +6434,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5878,6 +6497,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -5922,6 +6542,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5938,8 +6574,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706254
 	partName = Part
-	persistentId = 3448478608
-	pos = -2.24525046,6.10696793,0.833698571
+	persistentId = 3337776080
+	pos = -1.79610264,4.08073902,1.17115688
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,0.164545
 	rot = 0,0.60876143,0,-0.793353379
@@ -5951,7 +6587,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 3
 	sqor = 10
 	sepI = 8
@@ -5975,14 +6611,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -6011,18 +6650,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -6062,6 +6705,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6103,26 +6747,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6160,6 +6810,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6204,6 +6855,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6220,8 +6887,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293706056
 	partName = Part
-	persistentId = 2210725358
-	pos = -2.05525017,6.10696793,0.504608631
+	persistentId = 3351961634
+	pos = -1.60610247,4.08073902,0.842067003
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,-0.164545
 	rot = 0,-0.793353379,0,-0.60876137
@@ -6233,7 +6900,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 4
 	sqor = 10
 	sepI = 8
@@ -6257,14 +6924,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -6293,18 +6963,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -6344,6 +7018,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6385,26 +7060,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6442,6 +7123,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6486,6 +7168,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6502,8 +7200,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293705858
 	partName = Part
-	persistentId = 3868326859
-	pos = -2.34025049,6.10696793,0.66915375
+	persistentId = 3302121334
+	pos = -1.89110267,4.08073902,1.00661206
 	attPos = 0,0,0
 	attPos0 = -0.189999998,-0.0712118149,0
 	rot = 0,-0.923879504,0,0.382683575
@@ -6515,7 +7213,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 4
 	sqor = 10
 	sepI = 8
@@ -6539,14 +7237,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -6575,18 +7276,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -6626,6 +7331,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6667,26 +7373,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6724,6 +7436,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6768,6 +7481,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6784,8 +7513,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293705660
 	partName = Part
-	persistentId = 736167009
-	pos = -2.05525017,6.10696793,0.83369863
+	persistentId = 1085260957
+	pos = -1.60610235,4.08073902,1.171157
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,0.164545
 	rot = 0,-0.130526051,0,0.991444886
@@ -6797,7 +7526,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 4
 	sqor = 10
 	sepI = 8
@@ -6821,14 +7550,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -6857,18 +7589,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -6908,6 +7644,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -6949,26 +7686,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -7006,6 +7749,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -7050,6 +7794,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7066,8 +7826,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705462
 	partName = Part
-	persistentId = 3343235559
-	pos = -2.30321741,6.1819725,0.404206574
+	persistentId = 1483468982
+	pos = -1.85406971,4.1557436,0.741664946
 	attPos = 0,0,0
 	attPos0 = -0.152967274,0.00379276276,-0.264947057
 	rot = 0,0.5,0,-0.866025448
@@ -7079,7 +7839,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7108,14 +7868,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7142,6 +7905,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7158,8 +7922,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705418
 	partName = Part
-	persistentId = 1512175402
-	pos = -2.45618486,6.1819725,0.669153631
+	persistentId = 3489937408
+	pos = -2.00703692,4.1557436,1.00661206
 	attPos = 0,0,0
 	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
 	rot = 0,-1.12050458E-09,0,-1
@@ -7171,7 +7935,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7200,14 +7964,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7234,6 +8001,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7250,8 +8018,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705374
 	partName = Part
-	persistentId = 3136816790
-	pos = -2.30321741,6.1819725,0.934100807
+	persistentId = 3449063760
+	pos = -1.85406971,4.1557436,1.27155924
 	attPos = 0,0,0
 	attPos0 = -0.152967229,0.00379276276,0.264947116
 	rot = 0,-0.50000006,0,-0.866025269
@@ -7263,7 +8031,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7292,14 +8060,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7326,6 +8097,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7342,8 +8114,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705330
 	partName = Part
-	persistentId = 64480015
-	pos = -1.99728298,6.1819725,0.934100807
+	persistentId = 1311731052
+	pos = -1.54813516,4.1557436,1.27155924
 	attPos = 0,0,0
 	attPos0 = 0.152967304,0.00379276276,0.264947057
 	rot = 0,-0.866025507,0,-0.49999994
@@ -7355,7 +8127,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7384,14 +8156,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7418,6 +8193,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7434,8 +8210,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705286
 	partName = Part
-	persistentId = 3756365726
-	pos = -1.84431577,6.1819725,0.66915369
+	persistentId = 1353877038
+	pos = -1.39516795,4.1557436,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
 	rot = 0,-1,0,5.27396367E-08
@@ -7447,7 +8223,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7476,14 +8252,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7510,6 +8289,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7526,8 +8306,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293705242
 	partName = Part
-	persistentId = 1243485979
-	pos = -1.99728298,6.1819725,0.404206634
+	persistentId = 1269922063
+	pos = -1.54813516,4.1557436,0.741665006
 	attPos = 0,0,0
 	attPos0 = 0.152967289,0.00379276276,-0.264947057
 	rot = 0,-0.866025448,0,0.49999997
@@ -7539,7 +8319,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7568,14 +8348,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7602,6 +8385,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7618,8 +8402,8 @@ PART
 {
 	part = .Luciole.NoseCone.0625_4293690180
 	partName = Part
-	persistentId = 1141686414
-	pos = -2.15025043,9.77173042,0.66915369
+	persistentId = 2946024303
+	pos = -1.7011025,7.74550152,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,1.83311653,0
 	rot = 0,0,0,1
@@ -7627,11 +8411,11 @@ PART
 	attRot0 = 0,8.42937027E-08,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7650,14 +8434,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7685,6 +8472,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7701,8 +8489,8 @@ PART
 {
 	part = .Luciole.RadialDecoupler_4293704412
 	partName = Part
-	persistentId = 3124186905
-	pos = -1.15260458,8.05081177,0.669153631
+	persistentId = 447607876
+	pos = -0.703456759,6.02458286,1.00661206
 	attPos = 0.0062058866,0,-5.42534906E-10
 	attPos0 = 0.311347991,0.115480423,-4.57766944E-08
 	rot = 0,1,0,-1.28005098E-07
@@ -7714,7 +8502,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 5
+	dstg = 9
 	sidx = 0
 	sqor = 8
 	sepI = 8
@@ -7734,14 +8522,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7762,6 +8553,7 @@ PART
 			DecoupleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -7782,14 +8574,17 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			EnableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			DisableAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -7818,6 +8613,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7834,8 +8630,8 @@ PART
 {
 	part = .Luciole.FirstStage.0625_4293663900
 	partName = Part
-	persistentId = 1415258041
-	pos = -0.7900666,7.93861389,0.66915369
+	persistentId = 475927094
+	pos = -0.340918779,5.91238499,1.00661206
 	attPos = 0,0.0543575287,0
 	attPos0 = -0.36253795,-0.166555405,-1.02384632E-07
 	rot = 0,1,0,4.05823073E-08
@@ -7843,11 +8639,11 @@ PART
 	attRot0 = 0,-1.68587405E-07,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -7870,14 +8666,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -7922,6 +8721,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7960,8 +8760,8 @@ PART
 {
 	part = .Luciole.Engine.Mount_4293663804
 	partName = Part
-	persistentId = 3900032243
-	pos = -0.7900666,6.17817974,0.66915369
+	persistentId = 3467945834
+	pos = -0.340918779,4.15195084,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-1.76043415,0
 	rot = 0,1,0,4.05823073E-08
@@ -7969,11 +8769,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Root
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -8013,14 +8813,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -8059,6 +8862,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8071,6 +8875,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8087,8 +8892,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663712
 	partName = Part
-	persistentId = 2097117731
-	pos = -0.7900666,6.10696793,0.66915369
+	persistentId = 841483292
+	pos = -0.340918779,4.08073902,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,-0.0712118149,0
 	rot = 0,1,0,4.05823073E-08
@@ -8100,7 +8905,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 2
 	sqor = 10
 	sepI = 8
@@ -8120,14 +8925,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -8156,18 +8964,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -8207,6 +9019,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8248,26 +9061,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8305,6 +9124,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8349,6 +9169,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8365,8 +9201,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663508
 	partName = Part
-	persistentId = 439547351
-	pos = -0.980066776,6.10696793,0.669153571
+	persistentId = 1725226806
+	pos = -0.530918956,4.08073902,1.00661194
 	attPos = 0,0,0
 	attPos0 = 0.189999998,-0.0712118149,0
 	rot = 0,-0.923879504,0,0.382683545
@@ -8378,7 +9214,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 3
 	sqor = 10
 	sepI = 8
@@ -8402,14 +9238,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -8438,18 +9277,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -8489,6 +9332,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8530,26 +9374,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8587,6 +9437,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8631,6 +9482,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8647,8 +9514,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663304
 	partName = Part
-	persistentId = 1580234777
-	pos = -0.69506669,6.10696793,0.83369863
+	persistentId = 4038994391
+	pos = -0.24591887,4.08073902,1.171157
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,-0.164545
 	rot = 0,0.13052614,0,-0.991444886
@@ -8660,7 +9527,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 3
 	sqor = 10
 	sepI = 8
@@ -8684,14 +9551,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -8720,18 +9590,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -8771,6 +9645,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8812,26 +9687,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8869,6 +9750,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -8913,6 +9795,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8929,8 +9827,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293663100
 	partName = Part
-	persistentId = 3836260641
-	pos = -0.695066452,6.10696793,0.504608691
+	persistentId = 1604656724
+	pos = -0.245918632,4.08073902,0.842067063
 	attPos = 0,0,0
 	attPos0 = -0.0949999988,-0.0712118149,0.164545
 	rot = 0,-0.793353379,0,-0.60876137
@@ -8942,7 +9840,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 3
 	sqor = 10
 	sepI = 8
@@ -8966,14 +9864,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -9002,18 +9903,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -9053,6 +9958,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9094,26 +10000,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9151,6 +10063,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9195,6 +10108,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9211,8 +10140,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293662896
 	partName = Part
-	persistentId = 545043553
-	pos = -0.885066628,6.10696793,0.833698571
+	persistentId = 3873003414
+	pos = -0.435918808,4.08073902,1.17115688
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,-0.164545
 	rot = 0,-0.608761311,0,0.793353319
@@ -9224,7 +10153,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 4
 	sqor = 10
 	sepI = 8
@@ -9248,14 +10177,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -9284,18 +10216,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -9335,6 +10271,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9376,26 +10313,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9433,6 +10376,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9477,6 +10421,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9493,8 +10453,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293662692
 	partName = Part
-	persistentId = 1215249060
-	pos = -0.600066423,6.10696793,0.669153571
+	persistentId = 347664785
+	pos = -0.150918603,4.08073902,1.00661194
 	attPos = 0,0,0
 	attPos0 = -0.189999998,-0.0712118149,0
 	rot = 0,0.382683605,0,0.923879504
@@ -9506,7 +10466,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 4
 	sqor = 10
 	sepI = 8
@@ -9530,14 +10490,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -9566,18 +10529,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -9617,6 +10584,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9658,26 +10626,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9715,6 +10689,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9759,6 +10734,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9775,8 +10766,8 @@ PART
 {
 	part = .Luciole.Navier.Engine.03125_4293662488
 	partName = Part
-	persistentId = 1684934467
-	pos = -0.885066748,6.10696793,0.50460875
+	persistentId = 898015223
+	pos = -0.435918927,4.08073902,0.842067122
 	attPos = 0,0,0
 	attPos0 = 0.0949999988,-0.0712118149,0.164545
 	rot = 0,0.991444886,0,0.130526006
@@ -9788,7 +10779,7 @@ PART
 	rigidAttachment = False
 	istg = 11
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = 4
 	sqor = 10
 	sepI = 8
@@ -9812,14 +10803,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -9848,18 +10842,22 @@ PART
 			OnAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ShutdownAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleThrottle
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		AXISGROUPS
@@ -9899,6 +10897,7 @@ PART
 			JettisonAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9940,26 +10939,32 @@ PART
 			ToggleAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			LockAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			FreeAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePitchAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleYawAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 			ToggleRollAction
 			{
 				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -9997,6 +11002,7 @@ PART
 			{
 				actionGroup = None
 				active = False
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -10041,6 +11047,22 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10057,8 +11079,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662284
 	partName = Part
-	persistentId = 1011670704
-	pos = -0.637099385,6.1819725,0.934100747
+	persistentId = 2299128298
+	pos = -0.187951565,4.1557436,1.27155912
 	attPos = 0,0,0
 	attPos0 = -0.152967274,0.00379276276,-0.264947057
 	rot = 0,-0.866025448,0,-0.49999994
@@ -10070,7 +11092,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -10099,14 +11121,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10133,6 +11158,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10149,8 +11175,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662234
 	partName = Part
-	persistentId = 3361969942
-	pos = -0.484132171,6.1819725,0.66915369
+	persistentId = 882616723
+	pos = -0.0349843502,4.1557436,1.00661206
 	attPos = 0,0,0
 	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
 	rot = 0,-1,0,4.48319E-08
@@ -10162,7 +11188,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -10191,14 +11217,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10225,6 +11254,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10241,8 +11271,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662184
 	partName = Part
-	persistentId = 1176941044
-	pos = -0.637099385,6.1819725,0.404206514
+	persistentId = 2631787475
+	pos = -0.187951565,4.1557436,0.741664886
 	attPos = 0,0,0
 	attPos0 = -0.152967229,0.00379276276,0.264947116
 	rot = 0,-0.866025388,0,0.49999997
@@ -10254,7 +11284,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -10283,14 +11313,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10317,6 +11350,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10333,8 +11367,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662134
 	partName = Part
-	persistentId = 673001404
-	pos = -0.943033934,6.1819725,0.404206514
+	persistentId = 3858093107
+	pos = -0.493886113,4.1557436,0.741664886
 	attPos = 0,0,0
 	attPos0 = 0.152967304,0.00379276276,0.264947057
 	rot = 0,-0.49999994,0,0.866025507
@@ -10346,7 +11380,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -10375,14 +11409,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10409,6 +11446,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10425,8 +11463,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662084
 	partName = Part
-	persistentId = 2522382208
-	pos = -1.09600115,6.1819725,0.66915369
+	persistentId = 4156442150
+	pos = -0.646853328,4.1557436,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
 	rot = 0,9.64510321E-08,0,1
@@ -10438,7 +11476,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -10467,14 +11505,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10501,6 +11542,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10517,8 +11559,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4293662034
 	partName = Part
-	persistentId = 1081625215
-	pos = -0.943033934,6.1819725,0.934100688
+	persistentId = 367240883
+	pos = -0.493886113,4.1557436,1.271559
 	attPos = 0,0,0
 	attPos0 = 0.152967289,0.00379276276,-0.264947057
 	rot = 0,0.49999997,0,0.866025448
@@ -10530,7 +11572,7 @@ PART
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -10559,14 +11601,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10593,6 +11638,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10609,8 +11655,8 @@ PART
 {
 	part = .Luciole.NoseCone.0625_4293661984
 	partName = Part
-	persistentId = 1186711190
-	pos = -0.7900666,9.77173042,0.66915369
+	persistentId = 2610842231
+	pos = -0.340918779,7.74550152,1.00661206
 	attPos = 0,0,0
 	attPos0 = 0,1.83311653,0
 	rot = 0,1,0,-4.37113954E-08
@@ -10618,11 +11664,11 @@ PART
 	attRot0 = 0,8.42937027E-08,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Grandparent
 	rigidAttachment = False
 	istg = 9
 	resPri = 0
-	dstg = 6
+	dstg = 10
 	sidx = -1
 	sqor = -1
 	sepI = 8
@@ -10641,14 +11687,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10676,6 +11725,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10692,8 +11742,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416382
 	partName = Part
-	persistentId = 1163753599
-	pos = -1.68495882,10.4576616,0.454353333
+	persistentId = 257192634
+	pos = -1.235811,8.80512524,0.791811705
 	attPos = 0,0,0
 	attPos0 = -0.214800373,-0.65259552,-0.214800358
 	rot = 0,0.382683456,0,-0.923879623
@@ -10705,7 +11755,7 @@ PART
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
-	dstg = 2
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 4
@@ -10726,14 +11776,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10760,6 +11813,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10776,8 +11830,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416136
 	partName = Part
-	persistentId = 939713123
-	pos = -1.68495882,10.4576616,0.883954048
+	persistentId = 1999188526
+	pos = -1.235811,8.80512524,1.22141242
 	attPos = 0,0,0
 	attPos0 = -0.214800358,-0.65259552,0.214800343
 	rot = 0,-0.382683456,0,-0.923879564
@@ -10789,7 +11843,7 @@ PART
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
-	dstg = 2
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 4
@@ -10810,14 +11864,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10844,6 +11901,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10860,8 +11918,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416092
 	partName = Part
-	persistentId = 2972092613
-	pos = -1.2553581,10.4576616,0.883954048
+	persistentId = 2082640901
+	pos = -0.806210279,8.80512524,1.22141242
 	attPos = 0,0,0
 	attPos0 = 0.214800388,-0.65259552,0.214800343
 	rot = 0,-0.923879623,0,-0.382683426
@@ -10873,7 +11931,7 @@ PART
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
-	dstg = 2
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 4
@@ -10894,14 +11952,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -10928,6 +11989,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10944,8 +12006,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416048
 	partName = Part
-	persistentId = 1824348415
-	pos = -1.2553581,10.4576616,0.454353303
+	persistentId = 2824897058
+	pos = -0.806210279,8.80512524,0.791811705
 	attPos = 0,0,0
 	attPos0 = 0.214800328,-0.65259552,-0.214800373
 	rot = 0,-0.923879564,0,0.382683456
@@ -10957,7 +12019,7 @@ PART
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
-	dstg = 2
+	dstg = 6
 	sidx = -1
 	sqor = -1
 	sepI = 4
@@ -10978,14 +12040,17 @@ PART
 		ToggleSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		SetSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
 		}
 	}
 	PARTDATA
@@ -11012,6 +12077,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
