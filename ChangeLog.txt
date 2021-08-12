@@ -1,7 +1,11 @@
 Luciole 1.8 [2021-08-08]
 ------------------------
 
-	- New UpperStage 0625 nano
+	- New UpperStage 0.625 nano
+	- New Cargo Module 0.625
+	- Fix MarCO_UHF Antenna animation
+	- Fix MarCO_XBand Antenna animation
+	- Fix Nano_Antenna animation	
 	
 Luciole 1.7 [2021-08-08]
 ------------------------
