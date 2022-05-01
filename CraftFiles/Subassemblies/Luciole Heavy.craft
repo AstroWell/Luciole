@@ -1,10 +1,10 @@
 ship = Luciole Heavy
-version = 1.12.2
+version = 1.12.3
 description = No Description.
 type = None
-size = 8.61120319,9.85886765,7.61827469
+size = 8.61120319,9.85886765,7.61827374
 steamPublishedFileId = 0
-persistentId = 785720943
+persistentId = 2610025349
 rot = 0,0,0,0
 missionFlag = 
 vesselType = Debris
@@ -16,10 +16,10 @@ PART
 {
 	part = .Luciole.Avionics.0625_4294321246
 	partName = Part
-	persistentId = 1151034522
-	pos = -1.02101064,10.7855644,1.00661206
+	persistentId = 388066281
+	pos = -0.454660654,15.0566063,0.46200195
 	attPos = 0,0,0
-	attPos0 = -1.02101064,10.7855644,1.00661206
+	attPos0 = -0.454660654,15.0566063,0.46200195
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -355,8 +355,8 @@ PART
 {
 	part = .Luciole.Monoprop.0625.nano_4293716132
 	partName = Part
-	persistentId = 4138570292
-	pos = -1.02101064,10.6105642,1.00661206
+	persistentId = 2135467220
+	pos = -0.454660654,14.8816061,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-0.175000191,0
 	rot = 0,0,0,1
@@ -454,8 +454,8 @@ PART
 {
 	part = .Luciole.KickStage.0625_4293725330
 	partName = Part
-	persistentId = 4273640197
-	pos = -1.02101064,10.4244022,1.00661206
+	persistentId = 1856609190
+	pos = -0.454660654,14.6954441,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-0.186161995,0
 	rot = 0,0,0,1
@@ -1002,8 +1002,8 @@ PART
 {
 	part = .Luciole.Decoupler.0625_4293708644
 	partName = Part
-	persistentId = 1905469462
-	pos = -1.02101064,10.2202206,1.00661206
+	persistentId = 1116588609
+	pos = -0.454660654,14.4912624,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-0.204181671,0
 	rot = 0,0,0,1
@@ -1143,8 +1143,8 @@ PART
 {
 	part = .Luciole.UpperStage.0625_4294488750
 	partName = Part
-	persistentId = 3497984787
-	pos = -1.02101064,9.45772076,1.00661206
+	persistentId = 1550746948
+	pos = -0.454660654,13.7287626,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-0.762499809,0
 	rot = 0,0,0,1
@@ -1274,8 +1274,8 @@ PART
 {
 	part = .Luciole.Navier.Vaccum.Engine.0625_4294488604
 	partName = Part
-	persistentId = 1495305080
-	pos = -1.02101064,8.45279503,1.00661206
+	persistentId = 351894455
+	pos = -0.454660654,12.7238369,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-1.00492573,0
 	rot = 0,0,0,1
@@ -1590,8 +1590,8 @@ PART
 {
 	part = .Luciole.Decoupler.0625_4294484514
 	partName = Part
-	persistentId = 536931609
-	pos = -1.02101064,7.92029572,1.00661206
+	persistentId = 863436773
+	pos = -0.454660654,12.1913376,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-0.53249979,0
 	rot = 0,0,0,1
@@ -1731,8 +1731,8 @@ PART
 {
 	part = .Luciole.UpperStage.0625.nano_4293907632
 	partName = Part
-	persistentId = 3197443159
-	pos = -1.02101064,7.72571373,1.00661206
+	persistentId = 3799511658
+	pos = -0.454660654,11.9967556,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-0.194581985,0
 	rot = 0,0,0,1
@@ -1841,8 +1841,8 @@ PART
 {
 	part = .Luciole.FirstStage.0625_4294487418
 	partName = Part
-	persistentId = 4133890533
-	pos = -1.02101064,5.90910244,1.00661206
+	persistentId = 3965940196
+	pos = -0.454660654,10.1801443,0.46200195
 	attPos = 0,0,0
 	attPos0 = 0,-1.81661129,0
 	rot = 0,0,0,1
@@ -1863,11 +1863,11 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.Engine.Mount_4294486098
 	link = .Luciole.RadialDecoupler_4293704662
 	link = .Luciole.RadialDecoupler_4293704412
+	link = .Luciole.Aerospike.0625_4293801776
 	attN = top,.Luciole.UpperStage.0625.nano_4293907632_0|1.625|0_0|1|0_0|1.625|0_0|1|0
-	attN = bottom,.Luciole.Engine.Mount_4294486098_0|-1.625|0_0|-1|0_0|-1.625|0_0|-1|0
+	attN = bottom,.Luciole.Aerospike.0625_4293801776_0|-1.625|0_0|-1|0_0|-1.625|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -1968,53 +1968,303 @@ PART
 }
 PART
 {
-	part = .Luciole.Engine.Mount_4294486098
+	part = .Luciole.RadialDecoupler_4293704662
 	partName = Part
-	persistentId = 1354814409
-	pos = -1.02101064,4.14866829,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,-1.76043415,0
-	rot = 0,0,0,1
+	persistentId = 3678864453
+	pos = -0.772214532,10.2956247,0.462001979
+	attPos = -0.0062058866,0,0
+	attPos0 = -0.311347991,0.115480423,1.85577882E-08
+	rot = 0,8.42937027E-08,0,1
 	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
+	attRot0 = 0,8.42937027E-08,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 9
+	resPri = 0
+	dstg = 9
+	sidx = 0
+	sqor = 8
+	sepI = 8
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = .Luciole.FirstStage.0625_4293707024
+	sym = .Luciole.RadialDecoupler_4293704412
+	srfN = srfAttach,.Luciole.FirstStage.0625_4294487418,Collider,0|0|0,1|0|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.FirstStage.0625_4293707024
+	partName = Part
+	persistentId = 2366954259
+	pos = -1.13475251,10.1834269,0.46200192
+	attPos = 0,0.0543575287,0
+	attPos0 = -0.36253795,-0.166555405,-1.02384625E-07
+	rot = 0,-8.42937027E-08,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,-1.68587405E-07,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Grandparent
 	rigidAttachment = False
-	istg = 8
+	istg = 9
 	resPri = 0
-	dstg = 8
+	dstg = 10
 	sidx = -1
 	sqor = -1
-	sepI = 7
+	sepI = 8
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = .Luciole.NoseCone.0625_4293690180
+	link = .Luciole.Aerospike.0625_4293800714
+	sym = .Luciole.FirstStage.0625_4293663900
+	srfN = srfAttach,.Luciole.RadialDecoupler_4293704662,Collider,0.3125|0|0,1|0|0,0.3125|0|0
+	attN = top,.Luciole.NoseCone.0625_4293690180_0|1.625|0_0|1|0_0|1.625|0_0|1|0
+	attN = bottom,.Luciole.Aerospike.0625_4293800714_0|-1.625|0_0|-1|0_0|-1.625|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FlagDecal
+		isEnabled = True
+		flagDisplayed = False
+		isMirrored = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 90
+		maxAmount = 90
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 110
+		maxAmount = 110
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = .Luciole.NoseCone.0625_4293690180
+	partName = Part
+	persistentId = 2051654348
+	pos = -1.13475251,12.0165434,0.46200192
+	attPos = 0,0,0
+	attPos0 = 0,1.83311653,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,8.42937027E-08,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Grandparent
+	rigidAttachment = False
+	istg = 9
+	resPri = 0
+	dstg = 10
+	sidx = -1
+	sqor = -1
+	sepI = 8
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = .Luciole.Navier.Engine.03125_4294485252
-	link = .Luciole.Navier.Engine.03125_4294484540
-	link = .Luciole.Navier.Engine.03125_4294484108
-	link = .Luciole.Navier.Engine.03125_4294483874
-	link = .Luciole.Navier.Engine.03125_4294483440
-	link = .Luciole.Navier.Engine.03125_4294481980
-	link = .Luciole.Navier.Engine.03125_4294481740
-	link = .Luciole.Nano.Fin_4294504676
-	link = .Luciole.Nano.Fin_4294504328
-	link = .Luciole.Nano.Fin_4294504284
-	link = .Luciole.Nano.Fin_4294504240
-	link = .Luciole.Nano.Fin_4294504196
-	link = .Luciole.Nano.Fin_4294504152
-	link = Luciole.LaunchPad_4292656078
-	attN = top,.Luciole.FirstStage.0625_4294487418_0|0.135434002|0_0|1|0_0|0.135434002|0_0|1|0
-	attN = bottom,Luciole.LaunchPad_4292656078_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
-	attN = bottom1,.Luciole.Navier.Engine.03125_4294485252_0|0.106600001|0_0|-1|0_0|0.106600001|0_0|-1|0
-	attN = bottom2,.Luciole.Navier.Engine.03125_4294483874_-0.0949999988|0.106600001|0.164545_0|-1|0_-0.0949999988|0.106600001|0.164545_0|-1|0
-	attN = bottom3,.Luciole.Navier.Engine.03125_4294481740_0.0949999988|0.106600001|0.164545_0|-1|0_0.0949999988|0.106600001|0.164545_0|-1|0
-	attN = bottom4,.Luciole.Navier.Engine.03125_4294481980_-0.189999998|0.106600001|0_0|-1|0_-0.189999998|0.106600001|0_0|-1|0
-	attN = bottom5,.Luciole.Navier.Engine.03125_4294484540_0.189999998|0.106600001|0_0|-1|0_0.189999998|0.106600001|0_0|-1|0
-	attN = bottom6,.Luciole.Navier.Engine.03125_4294484108_-0.0949999988|0.106600001|-0.164545_0|-1|0_-0.0949999988|0.106600001|-0.164545_0|-1|0
-	attN = bottom7,.Luciole.Navier.Engine.03125_4294483440_0.0949999988|0.106600001|-0.164545_0|-1|0_0.0949999988|0.106600001|-0.164545_0|-1|0
+	sym = .Luciole.NoseCone.0625_4293661984
+	attN = bottom01,.Luciole.FirstStage.0625_4293707024_0|-0.208116993|0_0|-1|0_0|-0.208116993|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -2045,7 +2295,1213 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
-		selectedVariant = TrussMount
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.Aerospike.0625_4293800714
+	partName = Part
+	persistentId = 2923475012
+	pos = -1.13475251,8.44738579,0.46200192
+	attPos = 0,0,0
+	attPos0 = 0,-1.73604107,0
+	rot = 0,-1,0,-4.37113954E-08
+	attRot = 0,0,0,1
+	attRot0 = 0,-1,0,4.05823073E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 11
+	resPri = 0
+	dstg = 10
+	sidx = 0
+	sqor = 10
+	sepI = 8
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.Aerospike.0625_4293801036
+	attN = top,.Luciole.FirstStage.0625_4293707024_0|0.111041002|0_0|1|0_0|0.111041002|0_0|1|0
+	attN = bottom,Null_0_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		independentThrottle = False
+		independentThrottlePercentage = 0
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		includeinDVCalcs = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleThrottle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			independentThrottlePercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+			thrustPercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSurfaceFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		gimbalLimiter = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		gimbalActive = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			LockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			FreeAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitchAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYawAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRollAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleThrottleEffects
+		isEnabled = True
+		state = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleJettison
+		isEnabled = True
+		activejettisonName = Fairing_0625
+		isJettisoned = True
+		shroudHideOverride = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			JettisonAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.RadialDecoupler_4293704412
+	partName = Part
+	persistentId = 1526620811
+	pos = -0.137106776,10.2956247,0.46200192
+	attPos = 0.0062058866,0,-5.42534906E-10
+	attPos0 = 0.311347991,0.115480423,-4.57766944E-08
+	rot = 0,1,0,-1.28005098E-07
+	attRot = 0,0,0,1
+	attRot0 = 0,1,0,-1.28005098E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 9
+	resPri = 0
+	dstg = 9
+	sidx = 0
+	sqor = 8
+	sepI = 8
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = .Luciole.FirstStage.0625_4293663900
+	sym = .Luciole.RadialDecoupler_4293704662
+	srfN = srfAttach,.Luciole.FirstStage.0625_4294487418,Collider,0|0|0,1|0|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.FirstStage.0625_4293663900
+	partName = Part
+	persistentId = 216262881
+	pos = 0.225431204,10.1834269,0.46200192
+	attPos = 0,0.0543575287,0
+	attPos0 = -0.36253795,-0.166555405,-1.02384632E-07
+	rot = 0,1,0,4.05823073E-08
+	attRot = 0,0,0,1
+	attRot0 = 0,-1.68587405E-07,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Grandparent
+	rigidAttachment = False
+	istg = 9
+	resPri = 0
+	dstg = 10
+	sidx = -1
+	sqor = -1
+	sepI = 8
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = .Luciole.NoseCone.0625_4293661984
+	link = .Luciole.Aerospike.0625_4293801036
+	sym = .Luciole.FirstStage.0625_4293707024
+	srfN = srfAttach,.Luciole.RadialDecoupler_4293704412,Collider,0.3125|0|0,1|0|0,0.3125|0|0
+	attN = top,.Luciole.NoseCone.0625_4293661984_0|1.625|0_0|1|0_0|1.625|0_0|1|0
+	attN = bottom,.Luciole.Aerospike.0625_4293801036_0|-1.625|0_0|-1|0_0|-1.625|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FlagDecal
+		isEnabled = True
+		flagDisplayed = False
+		isMirrored = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 90
+		maxAmount = 90
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 110
+		maxAmount = 110
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = .Luciole.NoseCone.0625_4293661984
+	partName = Part
+	persistentId = 2450331446
+	pos = 0.225431204,12.0165434,0.46200192
+	attPos = 0,0,0
+	attPos0 = 0,1.83311653,0
+	rot = 0,1,0,-4.37113954E-08
+	attRot = 0,0,0,1
+	attRot0 = 0,8.42937027E-08,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Grandparent
+	rigidAttachment = False
+	istg = 9
+	resPri = 0
+	dstg = 10
+	sidx = -1
+	sqor = -1
+	sepI = 8
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.NoseCone.0625_4293690180
+	attN = bottom01,.Luciole.FirstStage.0625_4293663900_0|-0.208116993|0_0|-1|0_0|-0.208116993|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.Aerospike.0625_4293801036
+	partName = Part
+	persistentId = 3398204984
+	pos = 0.225431204,8.44738579,0.46200192
+	attPos = 0,0,0
+	attPos0 = 0,-1.73604107,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,-1,0,4.05823073E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 11
+	resPri = 0
+	dstg = 10
+	sidx = 0
+	sqor = 10
+	sepI = 8
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = .Luciole.Aerospike.0625_4293800714
+	attN = top,.Luciole.FirstStage.0625_4293663900_0|0.111041002|0_0|1|0_0|0.111041002|0_0|1|0
+	attN = bottom,Null_0_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		independentThrottle = False
+		independentThrottlePercentage = 0
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		includeinDVCalcs = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleThrottle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			independentThrottlePercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+			thrustPercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSurfaceFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		gimbalLimiter = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		gimbalActive = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			LockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			FreeAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitchAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYawAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRollAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleThrottleEffects
+		isEnabled = True
+		state = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleJettison
+		isEnabled = True
+		activejettisonName = Fairing_0625
+		isJettisoned = True
+		shroudHideOverride = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			JettisonAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = .Luciole.Aerospike.0625_4293801776
+	partName = Part
+	persistentId = 5586235
+	pos = -0.454660654,8.44410324,0.46200195
+	attPos = 0,0,0
+	attPos0 = 0,-1.73604107,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 11
+	resPri = 0
+	dstg = 8
+	sidx = 1
+	sqor = 10
+	sepI = 7
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Luciole.LaunchPad_4292656078
+	attN = top,.Luciole.FirstStage.0625_4294487418_0|0.111041002|0_0|1|0_0|0.111041002|0_0|1|0
+	attN = bottom,Luciole.LaunchPad_4292656078_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		independentThrottle = False
+		independentThrottlePercentage = 0
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		includeinDVCalcs = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleThrottle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			independentThrottlePercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			thrustPercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSurfaceFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		gimbalLimiter = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		gimbalActive = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			LockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			FreeAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitchAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYawAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRollAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleThrottleEffects
+		isEnabled = True
+		state = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColorChanger
+		isEnabled = True
+		animState = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
 		EVENTS
 		{
 		}
@@ -2097,2711 +3553,10 @@ PART
 		{
 		}
 	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4294485252
-	partName = Part
-	persistentId = 359892082
-	pos = -1.02101064,4.07745647,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,-0.0712118149,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 8
-	sidx = 5
-	sqor = 10
-	sepI = 7
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 	MODULE
 	{
 		name = ModuleWaterfallFX
 		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4294484540
-	partName = Part
-	persistentId = 4078273150
-	pos = -0.831010461,4.07745647,1.00661218
-	attPos = 0,0,0
-	attPos0 = 0.189999998,-0.0712118149,0
-	rot = 0,-0.382683575,0,-0.923879504
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 8
-	sidx = 0
-	sqor = 10
-	sepI = 7
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4294484108
-	sym = .Luciole.Navier.Engine.03125_4294483874
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4294484108
-	partName = Part
-	persistentId = 324604655
-	pos = -1.11601067,4.07745647,0.842067063
-	attPos = 0,0,0
-	attPos0 = -0.0949999988,-0.0712118149,-0.164545
-	rot = 0,0.991444886,0,0.130526111
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0.991444886,0,0.130526111
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 8
-	sidx = 0
-	sqor = 10
-	sepI = 7
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4294483874
-	sym = .Luciole.Navier.Engine.03125_4294484540
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4294483874
-	partName = Part
-	persistentId = 1334358891
-	pos = -1.11601079,4.07745647,1.171157
-	attPos = 0,0,0
-	attPos0 = -0.0949999988,-0.0712118149,0.164545
-	rot = 0,0.60876137,0,-0.793353438
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0.866025388,0,-0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 8
-	sidx = 0
-	sqor = 10
-	sepI = 7
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4294484540
-	sym = .Luciole.Navier.Engine.03125_4294484108
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4294483440
-	partName = Part
-	persistentId = 1927907640
-	pos = -0.926010609,4.07745647,0.842067063
-	attPos = 0,0,0
-	attPos0 = 0.0949999988,-0.0712118149,-0.164545
-	rot = 0,-0.793353438,0,-0.608761311
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,-0.793353438,0,-0.608761311
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 8
-	sidx = 1
-	sqor = 10
-	sepI = 7
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4294481980
-	sym = .Luciole.Navier.Engine.03125_4294481740
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4294481980
-	partName = Part
-	persistentId = 1135229823
-	pos = -1.21101081,4.07745647,1.00661218
-	attPos = 0,0,0
-	attPos0 = -0.189999998,-0.0712118149,0
-	rot = 0,-0.923879504,0,0.382683635
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,0.866025448,0,0.49999997
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 8
-	sidx = 1
-	sqor = 10
-	sepI = 7
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4294481740
-	sym = .Luciole.Navier.Engine.03125_4294483440
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4294481740
-	partName = Part
-	persistentId = 1419108232
-	pos = -0.926010489,4.07745647,1.171157
-	attPos = 0,0,0
-	attPos0 = 0.0949999988,-0.0712118149,0.164545
-	rot = 0,-0.130525976,0,0.991444886
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,0.866025388,0,-0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 8
-	sidx = 1
-	sqor = 10
-	sepI = 7
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4294483440
-	sym = .Luciole.Navier.Engine.03125_4294481980
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4294504676
-	partName = Part
-	persistentId = 3923674358
-	pos = -1.17397785,4.15246105,0.741665006
-	attPos = 0,0,0
-	attPos0 = -0.152967274,0.00379276276,-0.264947057
-	rot = 0,0.49999997,0,-0.866025507
-	attRot = 0,0,0,1
-	attRot0 = 0,0.49999997,0,-0.866025507
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 8
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 7
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4294504328
-	sym = .Luciole.Nano.Fin_4294504284
-	sym = .Luciole.Nano.Fin_4294504240
-	sym = .Luciole.Nano.Fin_4294504196
-	sym = .Luciole.Nano.Fin_4294504152
-	srfN = srfAttach,.Luciole.Engine.Mount_4294486098,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4294504328
-	partName = Part
-	persistentId = 3962380009
-	pos = -1.32694507,4.15246105,1.00661206
-	attPos = 0,0,0
-	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
-	rot = 0,-8.54142073E-08,0,-1
-	attRot = 0,0,0,1
-	attRot0 = 0,-8.54142073E-08,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 8
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 7
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4294504284
-	sym = .Luciole.Nano.Fin_4294504240
-	sym = .Luciole.Nano.Fin_4294504196
-	sym = .Luciole.Nano.Fin_4294504152
-	sym = .Luciole.Nano.Fin_4294504676
-	srfN = srfAttach,.Luciole.Engine.Mount_4294486098,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4294504284
-	partName = Part
-	persistentId = 3668503923
-	pos = -1.17397785,4.15246105,1.27155924
-	attPos = 0,0,0
-	attPos0 = -0.152967229,0.00379276276,0.264947116
-	rot = 0,-0.500000119,0,-0.866025329
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.500000119,0,-0.866025329
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 8
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 7
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4294504240
-	sym = .Luciole.Nano.Fin_4294504196
-	sym = .Luciole.Nano.Fin_4294504152
-	sym = .Luciole.Nano.Fin_4294504676
-	sym = .Luciole.Nano.Fin_4294504328
-	srfN = srfAttach,.Luciole.Engine.Mount_4294486098,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4294504240
-	partName = Part
-	persistentId = 3030526517
-	pos = -0.868043303,4.15246105,1.27155912
-	attPos = 0,0,0
-	attPos0 = 0.152967304,0.00379276276,0.264947057
-	rot = 0,-0.866025507,0,-0.49999994
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.866025507,0,-0.49999994
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 8
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 7
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4294504196
-	sym = .Luciole.Nano.Fin_4294504152
-	sym = .Luciole.Nano.Fin_4294504676
-	sym = .Luciole.Nano.Fin_4294504328
-	sym = .Luciole.Nano.Fin_4294504284
-	srfN = srfAttach,.Luciole.Engine.Mount_4294486098,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4294504196
-	partName = Part
-	persistentId = 1978349013
-	pos = -0.715076089,4.15246105,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
-	rot = 0,-1,0,1.37033339E-07
-	attRot = 0,0,0,1
-	attRot0 = 0,-1,0,1.37033339E-07
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 8
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 7
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4294504152
-	sym = .Luciole.Nano.Fin_4294504676
-	sym = .Luciole.Nano.Fin_4294504328
-	sym = .Luciole.Nano.Fin_4294504284
-	sym = .Luciole.Nano.Fin_4294504240
-	srfN = srfAttach,.Luciole.Engine.Mount_4294486098,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4294504152
-	partName = Part
-	persistentId = 1781224390
-	pos = -0.868043303,4.15246105,0.741665006
-	attPos = 0,0,0
-	attPos0 = 0.152967289,0.00379276276,-0.264947057
-	rot = 0,-0.866025448,0,0.50000006
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.866025448,0,0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 8
-	resPri = 0
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 7
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4294504676
-	sym = .Luciole.Nano.Fin_4294504328
-	sym = .Luciole.Nano.Fin_4294504284
-	sym = .Luciole.Nano.Fin_4294504240
-	sym = .Luciole.Nano.Fin_4294504196
-	srfN = srfAttach,.Luciole.Engine.Mount_4294486098,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4818,10 +3573,10 @@ PART
 {
 	part = Luciole.LaunchPad_4292656078
 	partName = Part
-	persistentId = 3337857498
-	pos = -1.02101064,3.3486681,1.00661206
+	persistentId = 3293253799
+	pos = -0.454660654,7.64410305,0.46200195
 	attPos = 0,0,0
-	attPos0 = 0,-0.799999714,0
+	attPos0 = 0,-0.800000191,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -4840,7 +3595,7 @@ PART
 	modCost = 1000
 	modMass = 2
 	modSize = 0,0,0
-	attN = top,.Luciole.Engine.Mount_4294486098_0|0.400000006|0_0|1|0_0|0.400000006|0_0|1|0
+	attN = top,.Luciole.Aerospike.0625_4293801776_0|0.400000006|0_0|1|0_0|0.400000006|0_0|1|0
 	attN = tower,Null_0_0|0.776522994|1.54091001_0|1|0_0|0.776522994|1.54091001_0|1|0
 	attN = bottom01,Null_0_3.38022995|-0.40880999|-3.03371_0|-1|0_3.38022995|-0.40880999|-3.03371_0|-1|0
 	attN = bottom02,Null_0_-3.38022995|-0.40880999|-3.03371_0|-1|0_-3.38022995|-0.40880999|-3.03371_0|-1|0
@@ -5234,6516 +3989,10 @@ PART
 }
 PART
 {
-	part = .Luciole.RadialDecoupler_4293704662
-	partName = Part
-	persistentId = 3644793303
-	pos = -1.33856452,6.02458286,1.00661206
-	attPos = -0.0062058866,0,0
-	attPos0 = -0.311347991,0.115480423,1.85577882E-08
-	rot = 0,8.42937027E-08,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,8.42937027E-08,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 9
-	sidx = 0
-	sqor = 8
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = .Luciole.FirstStage.0625_4293707024
-	sym = .Luciole.RadialDecoupler_4293704412
-	srfN = srfAttach,.Luciole.FirstStage.0625_4294487418,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnchoredDecoupler
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			EnableAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DisableAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.FirstStage.0625_4293707024
-	partName = Part
-	persistentId = 3005452757
-	pos = -1.7011025,5.91238499,1.00661206
-	attPos = 0,0.0543575287,0
-	attPos0 = -0.36253795,-0.166555405,-1.02384625E-07
-	rot = 0,-8.42937027E-08,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,-1.68587405E-07,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Grandparent
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = .Luciole.Engine.Mount_4293706934
-	link = .Luciole.NoseCone.0625_4293690180
-	sym = .Luciole.FirstStage.0625_4293663900
-	srfN = srfAttach,.Luciole.RadialDecoupler_4293704662,Collider,0.3125|0|0,1|0|0,0.3125|0|0
-	attN = top,.Luciole.NoseCone.0625_4293690180_0|1.625|0_0|1|0_0|1.625|0_0|1|0
-	attN = bottom,.Luciole.Engine.Mount_4293706934_0|-1.625|0_0|-1|0_0|-1.625|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = FlagDecal
-		isEnabled = True
-		flagDisplayed = False
-		isMirrored = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 90
-		maxAmount = 90
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 110
-		maxAmount = 110
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = .Luciole.Engine.Mount_4293706934
-	partName = Part
-	persistentId = 3666309602
-	pos = -1.7011025,4.15195084,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,-1.76043415,0
-	rot = 0,-8.42937027E-08,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Grandparent
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = .Luciole.Navier.Engine.03125_4293706848
-	link = .Luciole.Navier.Engine.03125_4293706650
-	link = .Luciole.Navier.Engine.03125_4293706452
-	link = .Luciole.Navier.Engine.03125_4293706254
-	link = .Luciole.Navier.Engine.03125_4293706056
-	link = .Luciole.Navier.Engine.03125_4293705858
-	link = .Luciole.Navier.Engine.03125_4293705660
-	link = .Luciole.Nano.Fin_4293705462
-	link = .Luciole.Nano.Fin_4293705418
-	link = .Luciole.Nano.Fin_4293705374
-	link = .Luciole.Nano.Fin_4293705330
-	link = .Luciole.Nano.Fin_4293705286
-	link = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Engine.Mount_4293663804
-	attN = top,.Luciole.FirstStage.0625_4293707024_0|0.135434002|0_0|1|0_0|0.135434002|0_0|1|0
-	attN = bottom,Null_0_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
-	attN = bottom1,.Luciole.Navier.Engine.03125_4293706848_0|0.106600001|0_0|-1|0_0|0.106600001|0_0|-1|0
-	attN = bottom2,.Luciole.Navier.Engine.03125_4293706254_-0.0949999988|0.106600001|0.164545_0|-1|0_-0.0949999988|0.106600001|0.164545_0|-1|0
-	attN = bottom3,.Luciole.Navier.Engine.03125_4293705660_0.0949999988|0.106600001|0.164545_0|-1|0_0.0949999988|0.106600001|0.164545_0|-1|0
-	attN = bottom4,.Luciole.Navier.Engine.03125_4293705858_-0.189999998|0.106600001|0_0|-1|0_-0.189999998|0.106600001|0_0|-1|0
-	attN = bottom5,.Luciole.Navier.Engine.03125_4293706650_0.189999998|0.106600001|0_0|-1|0_0.189999998|0.106600001|0_0|-1|0
-	attN = bottom6,.Luciole.Navier.Engine.03125_4293706452_-0.0949999988|0.106600001|-0.164545_0|-1|0_-0.0949999988|0.106600001|-0.164545_0|-1|0
-	attN = bottom7,.Luciole.Navier.Engine.03125_4293706056_0.0949999988|0.106600001|-0.164545_0|-1|0_0.0949999988|0.106600001|-0.164545_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing_0625
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293706848
-	partName = Part
-	persistentId = 1796250320
-	pos = -1.7011025,4.08073902,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,-0.0712118149,0
-	rot = 0,-8.42937027E-08,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 2
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293663712
-	attN = top,.Luciole.Engine.Mount_4293706934_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293706650
-	partName = Part
-	persistentId = 1734360656
-	pos = -1.5111022,4.08073902,1.00661218
-	attPos = 0,0,0
-	attPos0 = 0.189999998,-0.0712118149,0
-	rot = 0,-0.382683516,0,-0.923879504
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 3
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293663304
-	sym = .Luciole.Navier.Engine.03125_4293706452
-	sym = .Luciole.Navier.Engine.03125_4293663100
-	sym = .Luciole.Navier.Engine.03125_4293706254
-	sym = .Luciole.Navier.Engine.03125_4293663508
-	attN = top,.Luciole.Engine.Mount_4293706934_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293706452
-	partName = Part
-	persistentId = 2556356400
-	pos = -1.7961024,4.08073902,0.842067003
-	attPos = 0,0,0
-	attPos0 = -0.0949999988,-0.0712118149,-0.164545
-	rot = 0,0.991444886,0,0.130526185
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0.991444886,0,0.130526111
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 3
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293663100
-	sym = .Luciole.Navier.Engine.03125_4293706254
-	sym = .Luciole.Navier.Engine.03125_4293663508
-	sym = .Luciole.Navier.Engine.03125_4293706650
-	sym = .Luciole.Navier.Engine.03125_4293663304
-	attN = top,.Luciole.Engine.Mount_4293706934_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293706254
-	partName = Part
-	persistentId = 3337776080
-	pos = -1.79610264,4.08073902,1.17115688
-	attPos = 0,0,0
-	attPos0 = -0.0949999988,-0.0712118149,0.164545
-	rot = 0,0.60876143,0,-0.793353379
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0.866025388,0,-0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 3
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293663508
-	sym = .Luciole.Navier.Engine.03125_4293706650
-	sym = .Luciole.Navier.Engine.03125_4293663304
-	sym = .Luciole.Navier.Engine.03125_4293706452
-	sym = .Luciole.Navier.Engine.03125_4293663100
-	attN = top,.Luciole.Engine.Mount_4293706934_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293706056
-	partName = Part
-	persistentId = 3351961634
-	pos = -1.60610247,4.08073902,0.842067003
-	attPos = 0,0,0
-	attPos0 = 0.0949999988,-0.0712118149,-0.164545
-	rot = 0,-0.793353379,0,-0.60876137
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,-0.793353438,0,-0.608761311
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 4
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293662692
-	sym = .Luciole.Navier.Engine.03125_4293705858
-	sym = .Luciole.Navier.Engine.03125_4293662488
-	sym = .Luciole.Navier.Engine.03125_4293705660
-	sym = .Luciole.Navier.Engine.03125_4293662896
-	attN = top,.Luciole.Engine.Mount_4293706934_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293705858
-	partName = Part
-	persistentId = 3302121334
-	pos = -1.89110267,4.08073902,1.00661206
-	attPos = 0,0,0
-	attPos0 = -0.189999998,-0.0712118149,0
-	rot = 0,-0.923879504,0,0.382683575
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,0.866025448,0,0.49999997
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 4
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293662488
-	sym = .Luciole.Navier.Engine.03125_4293705660
-	sym = .Luciole.Navier.Engine.03125_4293662896
-	sym = .Luciole.Navier.Engine.03125_4293706056
-	sym = .Luciole.Navier.Engine.03125_4293662692
-	attN = top,.Luciole.Engine.Mount_4293706934_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293705660
-	partName = Part
-	persistentId = 1085260957
-	pos = -1.60610235,4.08073902,1.171157
-	attPos = 0,0,0
-	attPos0 = 0.0949999988,-0.0712118149,0.164545
-	rot = 0,-0.130526051,0,0.991444886
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,0.866025388,0,-0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 4
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293662896
-	sym = .Luciole.Navier.Engine.03125_4293706056
-	sym = .Luciole.Navier.Engine.03125_4293662692
-	sym = .Luciole.Navier.Engine.03125_4293705858
-	sym = .Luciole.Navier.Engine.03125_4293662488
-	attN = top,.Luciole.Engine.Mount_4293706934_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293705462
-	partName = Part
-	persistentId = 1483468982
-	pos = -1.85406971,4.1557436,0.741664946
-	attPos = 0,0,0
-	attPos0 = -0.152967274,0.00379276276,-0.264947057
-	rot = 0,0.5,0,-0.866025448
-	attRot = 0,0,0,1
-	attRot0 = 0,0.49999997,0,-0.866025507
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	srfN = srfAttach,.Luciole.Engine.Mount_4293706934,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293705418
-	partName = Part
-	persistentId = 3489937408
-	pos = -2.00703692,4.1557436,1.00661206
-	attPos = 0,0,0
-	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
-	rot = 0,-1.12050458E-09,0,-1
-	attRot = 0,0,0,1
-	attRot0 = 0,-8.54142073E-08,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	srfN = srfAttach,.Luciole.Engine.Mount_4293706934,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293705374
-	partName = Part
-	persistentId = 3449063760
-	pos = -1.85406971,4.1557436,1.27155924
-	attPos = 0,0,0
-	attPos0 = -0.152967229,0.00379276276,0.264947116
-	rot = 0,-0.50000006,0,-0.866025269
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.500000119,0,-0.866025329
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	srfN = srfAttach,.Luciole.Engine.Mount_4293706934,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293705330
-	partName = Part
-	persistentId = 1311731052
-	pos = -1.54813516,4.1557436,1.27155924
-	attPos = 0,0,0
-	attPos0 = 0.152967304,0.00379276276,0.264947057
-	rot = 0,-0.866025507,0,-0.49999994
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.866025507,0,-0.49999994
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	srfN = srfAttach,.Luciole.Engine.Mount_4293706934,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293705286
-	partName = Part
-	persistentId = 1353877038
-	pos = -1.39516795,4.1557436,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
-	rot = 0,-1,0,5.27396367E-08
-	attRot = 0,0,0,1
-	attRot0 = 0,-1,0,1.37033339E-07
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	srfN = srfAttach,.Luciole.Engine.Mount_4293706934,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293705242
-	partName = Part
-	persistentId = 1269922063
-	pos = -1.54813516,4.1557436,0.741665006
-	attPos = 0,0,0
-	attPos0 = 0.152967289,0.00379276276,-0.264947057
-	rot = 0,-0.866025448,0,0.49999997
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.866025448,0,0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	srfN = srfAttach,.Luciole.Engine.Mount_4293706934,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.NoseCone.0625_4293690180
-	partName = Part
-	persistentId = 2946024303
-	pos = -1.7011025,7.74550152,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,1.83311653,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,8.42937027E-08,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Grandparent
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.NoseCone.0625_4293661984
-	attN = bottom01,.Luciole.FirstStage.0625_4293707024_0|-0.208116993|0_0|-1|0_0|-0.208116993|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.RadialDecoupler_4293704412
-	partName = Part
-	persistentId = 447607876
-	pos = -0.703456759,6.02458286,1.00661206
-	attPos = 0.0062058866,0,-5.42534906E-10
-	attPos0 = 0.311347991,0.115480423,-4.57766944E-08
-	rot = 0,1,0,-1.28005098E-07
-	attRot = 0,0,0,1
-	attRot0 = 0,1,0,-1.28005098E-07
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 9
-	sidx = 0
-	sqor = 8
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = .Luciole.FirstStage.0625_4293663900
-	sym = .Luciole.RadialDecoupler_4293704662
-	srfN = srfAttach,.Luciole.FirstStage.0625_4294487418,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnchoredDecoupler
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			EnableAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DisableAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.FirstStage.0625_4293663900
-	partName = Part
-	persistentId = 475927094
-	pos = -0.340918779,5.91238499,1.00661206
-	attPos = 0,0.0543575287,0
-	attPos0 = -0.36253795,-0.166555405,-1.02384632E-07
-	rot = 0,1,0,4.05823073E-08
-	attRot = 0,0,0,1
-	attRot0 = 0,-1.68587405E-07,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Grandparent
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = .Luciole.Engine.Mount_4293663804
-	link = .Luciole.NoseCone.0625_4293661984
-	sym = .Luciole.FirstStage.0625_4293707024
-	srfN = srfAttach,.Luciole.RadialDecoupler_4293704412,Collider,0.3125|0|0,1|0|0,0.3125|0|0
-	attN = top,.Luciole.NoseCone.0625_4293661984_0|1.625|0_0|1|0_0|1.625|0_0|1|0
-	attN = bottom,.Luciole.Engine.Mount_4293663804_0|-1.625|0_0|-1|0_0|-1.625|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = FlagDecal
-		isEnabled = True
-		flagDisplayed = False
-		isMirrored = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 90
-		maxAmount = 90
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 110
-		maxAmount = 110
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = .Luciole.Engine.Mount_4293663804
-	partName = Part
-	persistentId = 3467945834
-	pos = -0.340918779,4.15195084,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,-1.76043415,0
-	rot = 0,1,0,4.05823073E-08
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Grandparent
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = .Luciole.Navier.Engine.03125_4293663712
-	link = .Luciole.Navier.Engine.03125_4293663508
-	link = .Luciole.Navier.Engine.03125_4293663304
-	link = .Luciole.Navier.Engine.03125_4293663100
-	link = .Luciole.Navier.Engine.03125_4293662896
-	link = .Luciole.Navier.Engine.03125_4293662692
-	link = .Luciole.Navier.Engine.03125_4293662488
-	link = .Luciole.Nano.Fin_4293662284
-	link = .Luciole.Nano.Fin_4293662234
-	link = .Luciole.Nano.Fin_4293662184
-	link = .Luciole.Nano.Fin_4293662134
-	link = .Luciole.Nano.Fin_4293662084
-	link = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Engine.Mount_4293706934
-	attN = top,.Luciole.FirstStage.0625_4293663900_0|0.135434002|0_0|1|0_0|0.135434002|0_0|1|0
-	attN = bottom,Null_0_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
-	attN = bottom1,.Luciole.Navier.Engine.03125_4293663712_0|0.106600001|0_0|-1|0_0|0.106600001|0_0|-1|0
-	attN = bottom2,.Luciole.Navier.Engine.03125_4293663100_-0.0949999988|0.106600001|0.164545_0|-1|0_-0.0949999988|0.106600001|0.164545_0|-1|0
-	attN = bottom3,.Luciole.Navier.Engine.03125_4293662488_0.0949999988|0.106600001|0.164545_0|-1|0_0.0949999988|0.106600001|0.164545_0|-1|0
-	attN = bottom4,.Luciole.Navier.Engine.03125_4293662692_-0.189999998|0.106600001|0_0|-1|0_-0.189999998|0.106600001|0_0|-1|0
-	attN = bottom5,.Luciole.Navier.Engine.03125_4293663508_0.189999998|0.106600001|0_0|-1|0_0.189999998|0.106600001|0_0|-1|0
-	attN = bottom6,.Luciole.Navier.Engine.03125_4293663304_-0.0949999988|0.106600001|-0.164545_0|-1|0_-0.0949999988|0.106600001|-0.164545_0|-1|0
-	attN = bottom7,.Luciole.Navier.Engine.03125_4293662896_0.0949999988|0.106600001|-0.164545_0|-1|0_0.0949999988|0.106600001|-0.164545_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing_0625
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293663712
-	partName = Part
-	persistentId = 841483292
-	pos = -0.340918779,4.08073902,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,-0.0712118149,0
-	rot = 0,1,0,4.05823073E-08
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 2
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293706848
-	attN = top,.Luciole.Engine.Mount_4293663804_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293663508
-	partName = Part
-	persistentId = 1725226806
-	pos = -0.530918956,4.08073902,1.00661194
-	attPos = 0,0,0
-	attPos0 = 0.189999998,-0.0712118149,0
-	rot = 0,-0.923879504,0,0.382683545
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 3
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293706650
-	sym = .Luciole.Navier.Engine.03125_4293663304
-	sym = .Luciole.Navier.Engine.03125_4293706452
-	sym = .Luciole.Navier.Engine.03125_4293663100
-	sym = .Luciole.Navier.Engine.03125_4293706254
-	attN = top,.Luciole.Engine.Mount_4293663804_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293663304
-	partName = Part
-	persistentId = 4038994391
-	pos = -0.24591887,4.08073902,1.171157
-	attPos = 0,0,0
-	attPos0 = -0.0949999988,-0.0712118149,-0.164545
-	rot = 0,0.13052614,0,-0.991444886
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0.991444886,0,0.130526111
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 3
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293706452
-	sym = .Luciole.Navier.Engine.03125_4293663100
-	sym = .Luciole.Navier.Engine.03125_4293706254
-	sym = .Luciole.Navier.Engine.03125_4293663508
-	sym = .Luciole.Navier.Engine.03125_4293706650
-	attN = top,.Luciole.Engine.Mount_4293663804_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293663100
-	partName = Part
-	persistentId = 1604656724
-	pos = -0.245918632,4.08073902,0.842067063
-	attPos = 0,0,0
-	attPos0 = -0.0949999988,-0.0712118149,0.164545
-	rot = 0,-0.793353379,0,-0.60876137
-	attRot = 0,0.382683486,0,0.923879564
-	attRot0 = 0,0.866025388,0,-0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 3
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293706254
-	sym = .Luciole.Navier.Engine.03125_4293663508
-	sym = .Luciole.Navier.Engine.03125_4293706650
-	sym = .Luciole.Navier.Engine.03125_4293663304
-	sym = .Luciole.Navier.Engine.03125_4293706452
-	attN = top,.Luciole.Engine.Mount_4293663804_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293662896
-	partName = Part
-	persistentId = 3873003414
-	pos = -0.435918808,4.08073902,1.17115688
-	attPos = 0,0,0
-	attPos0 = 0.0949999988,-0.0712118149,-0.164545
-	rot = 0,-0.608761311,0,0.793353319
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,-0.793353438,0,-0.608761311
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 4
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293706056
-	sym = .Luciole.Navier.Engine.03125_4293662692
-	sym = .Luciole.Navier.Engine.03125_4293705858
-	sym = .Luciole.Navier.Engine.03125_4293662488
-	sym = .Luciole.Navier.Engine.03125_4293705660
-	attN = top,.Luciole.Engine.Mount_4293663804_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293662692
-	partName = Part
-	persistentId = 347664785
-	pos = -0.150918603,4.08073902,1.00661194
-	attPos = 0,0,0
-	attPos0 = -0.189999998,-0.0712118149,0
-	rot = 0,0.382683605,0,0.923879504
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,0.866025448,0,0.49999997
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 4
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293705858
-	sym = .Luciole.Navier.Engine.03125_4293662488
-	sym = .Luciole.Navier.Engine.03125_4293705660
-	sym = .Luciole.Navier.Engine.03125_4293662896
-	sym = .Luciole.Navier.Engine.03125_4293706056
-	attN = top,.Luciole.Engine.Mount_4293663804_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Navier.Engine.03125_4293662488
-	partName = Part
-	persistentId = 898015223
-	pos = -0.435918927,4.08073902,0.842067122
-	attPos = 0,0,0
-	attPos0 = 0.0949999988,-0.0712118149,0.164545
-	rot = 0,0.991444886,0,0.130526006
-	attRot = 0,-0.793353438,0,-0.608761311
-	attRot0 = 0,0.866025388,0,-0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 11
-	resPri = 0
-	dstg = 10
-	sidx = 4
-	sqor = 10
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Navier.Engine.03125_4293705660
-	sym = .Luciole.Navier.Engine.03125_4293662896
-	sym = .Luciole.Navier.Engine.03125_4293706056
-	sym = .Luciole.Navier.Engine.03125_4293662692
-	sym = .Luciole.Navier.Engine.03125_4293705858
-	attN = top,.Luciole.Engine.Mount_4293663804_0|0.177811995|0_0|1|0_0|0.177811995|0_0|1|0
-	attN = bottom,Null_0_0|-0.203639001|0_0|-1|0_0|-0.203639001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnginesFX
-		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleJettison
-		isEnabled = True
-		activejettisonName = Fairing
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSurfaceFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			LockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			FreeAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleThrottleEffects
-		isEnabled = True
-		state = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = TrussMount
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleLookAtConstraint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293662284
-	partName = Part
-	persistentId = 2299128298
-	pos = -0.187951565,4.1557436,1.27155912
-	attPos = 0,0,0
-	attPos0 = -0.152967274,0.00379276276,-0.264947057
-	rot = 0,-0.866025448,0,-0.49999994
-	attRot = 0,0,0,1
-	attRot0 = 0,0.49999997,0,-0.866025507
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	srfN = srfAttach,.Luciole.Engine.Mount_4293663804,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293662234
-	partName = Part
-	persistentId = 882616723
-	pos = -0.0349843502,4.1557436,1.00661206
-	attPos = 0,0,0
-	attPos0 = -0.305934519,0.00379276276,1.46325014E-08
-	rot = 0,-1,0,4.48319E-08
-	attRot = 0,0,0,1
-	attRot0 = 0,-8.54142073E-08,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	srfN = srfAttach,.Luciole.Engine.Mount_4293663804,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293662184
-	partName = Part
-	persistentId = 2631787475
-	pos = -0.187951565,4.1557436,0.741664886
-	attPos = 0,0,0
-	attPos0 = -0.152967229,0.00379276276,0.264947116
-	rot = 0,-0.866025388,0,0.49999997
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.500000119,0,-0.866025329
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	srfN = srfAttach,.Luciole.Engine.Mount_4293663804,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293662134
-	partName = Part
-	persistentId = 3858093107
-	pos = -0.493886113,4.1557436,0.741664886
-	attPos = 0,0,0
-	attPos0 = 0.152967304,0.00379276276,0.264947057
-	rot = 0,-0.49999994,0,0.866025507
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.866025507,0,-0.49999994
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	srfN = srfAttach,.Luciole.Engine.Mount_4293663804,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293662084
-	partName = Part
-	persistentId = 4156442150
-	pos = -0.646853328,4.1557436,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0.305934548,0.00379276276,-3.28676215E-08
-	rot = 0,9.64510321E-08,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,-1,0,1.37033339E-07
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293705286
-	sym = .Luciole.Nano.Fin_4293662034
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	srfN = srfAttach,.Luciole.Engine.Mount_4293663804,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.Nano.Fin_4293662034
-	partName = Part
-	persistentId = 367240883
-	pos = -0.493886113,4.1557436,1.271559
-	attPos = 0,0,0
-	attPos0 = 0.152967289,0.00379276276,-0.264947057
-	rot = 0,0.49999997,0,0.866025448
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.866025448,0,0.50000006
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.Nano.Fin_4293705242
-	sym = .Luciole.Nano.Fin_4293662284
-	sym = .Luciole.Nano.Fin_4293705462
-	sym = .Luciole.Nano.Fin_4293662234
-	sym = .Luciole.Nano.Fin_4293705418
-	sym = .Luciole.Nano.Fin_4293662184
-	sym = .Luciole.Nano.Fin_4293705374
-	sym = .Luciole.Nano.Fin_4293662134
-	sym = .Luciole.Nano.Fin_4293705330
-	sym = .Luciole.Nano.Fin_4293662084
-	sym = .Luciole.Nano.Fin_4293705286
-	srfN = srfAttach,.Luciole.Engine.Mount_4293663804,Collider,0|0|0,1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = .Luciole.NoseCone.0625_4293661984
-	partName = Part
-	persistentId = 2610842231
-	pos = -0.340918779,7.74550152,1.00661206
-	attPos = 0,0,0
-	attPos0 = 0,1.83311653,0
-	rot = 0,1,0,-4.37113954E-08
-	attRot = 0,0,0,1
-	attRot0 = 0,8.42937027E-08,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Grandparent
-	rigidAttachment = False
-	istg = 9
-	resPri = 0
-	dstg = 10
-	sidx = -1
-	sqor = -1
-	sepI = 8
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = .Luciole.NoseCone.0625_4293690180
-	attN = bottom01,.Luciole.FirstStage.0625_4293663900_0|-0.208116993|0_0|-1|0_0|-0.208116993|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = .Luciole.Nano.Fin_4294416382
 	partName = Part
-	persistentId = 257192634
-	pos = -1.235811,8.80512524,0.791811705
+	persistentId = 2636778881
+	pos = -0.669461012,13.0761671,0.247201592
 	attPos = 0,0,0
 	attPos0 = -0.214800373,-0.65259552,-0.214800358
 	rot = 0,0.382683456,0,-0.923879623
@@ -11830,8 +4079,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416136
 	partName = Part
-	persistentId = 1999188526
-	pos = -1.235811,8.80512524,1.22141242
+	persistentId = 382237440
+	pos = -0.669461012,13.0761671,0.676802278
 	attPos = 0,0,0
 	attPos0 = -0.214800358,-0.65259552,0.214800343
 	rot = 0,-0.382683456,0,-0.923879564
@@ -11918,8 +4167,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416092
 	partName = Part
-	persistentId = 2082640901
-	pos = -0.806210279,8.80512524,1.22141242
+	persistentId = 1623442050
+	pos = -0.239860266,13.0761671,0.676802278
 	attPos = 0,0,0
 	attPos0 = 0.214800388,-0.65259552,0.214800343
 	rot = 0,-0.923879623,0,-0.382683426
@@ -12006,8 +4255,8 @@ PART
 {
 	part = .Luciole.Nano.Fin_4294416048
 	partName = Part
-	persistentId = 2824897058
-	pos = -0.806210279,8.80512524,0.791811705
+	persistentId = 3207738395
+	pos = -0.239860326,13.0761671,0.247201562
 	attPos = 0,0,0
 	attPos0 = 0.214800328,-0.65259552,-0.214800373
 	rot = 0,-0.923879564,0,0.382683456

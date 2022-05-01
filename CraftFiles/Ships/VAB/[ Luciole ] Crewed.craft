@@ -1,5 +1,5 @@
 ship = [ Luciole ] Crewed
-version = 1.12.2
+version = 1.12.3
 description = 
 type = VAB
 size = 2.87972784,8.67376232,4.15362263
@@ -883,6 +883,21 @@ PART
 			{
 				unlockParts = 
 				unlockTechs = 
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
 			}
 			MechJebModuleCustomInfoWindow
 			{
@@ -2639,9 +2654,9 @@ PART
 	link = .Luciole.Nano.Fin_4294504240
 	link = .Luciole.Nano.Fin_4294504196
 	link = .Luciole.Nano.Fin_4294504152
-	link = Luciole.LaunchPad.Mini_4292623358
+	link = Luciole.LaunchPad.Mini_4293749018
 	attN = top,.Luciole.FirstStage.0625_4294487418_0|0.135434002|0_0|1|0_0|0.135434002|0_0|1|0
-	attN = bottom,Luciole.LaunchPad.Mini_4292623358_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
+	attN = bottom,Luciole.LaunchPad.Mini_4293749018_0|-0.400000006|0_0|-1|0_0|-0.400000006|0_0|-1|0
 	attN = bottom1,.Luciole.Navier.Engine.03125_4294485252_0|0.106600001|0_0|-1|0_0|0.106600001|0_0|-1|0
 	attN = bottom2,.Luciole.Navier.Engine.03125_4294483874_-0.0949999988|0.106600001|0.164545_0|-1|0_-0.0949999988|0.106600001|0.164545_0|-1|0
 	attN = bottom3,.Luciole.Navier.Engine.03125_4294481740_0.0949999988|0.106600001|0.164545_0|-1|0_0.0949999988|0.106600001|0.164545_0|-1|0
@@ -5802,18 +5817,18 @@ PART
 }
 PART
 {
-	part = Luciole.LaunchPad.Mini_4292623358
+	part = Luciole.LaunchPad.Mini_4293749018
 	partName = Part
-	persistentId = 3815200865
+	persistentId = 440318064
 	pos = -0.315124691,2.44153595,0.14427951
 	attPos = 0,0,0
 	attPos0 = 0,-0.800000191,0
-	rot = 0,0,0,-1
-	attRot = 0,0,0,-0.999999881
-	attRot0 = 0,0,0,-1
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Grandparent
+	autostrutMode = Off
 	rigidAttachment = False
 	istg = 5
 	resPri = 0
@@ -5826,7 +5841,6 @@ PART
 	modCost = 1000
 	modMass = 2
 	modSize = 0,0,0
-	link = ladder1_4292622954
 	attN = top,.Luciole.Engine.Mount_4294486098_0|0.400000006|0_0|1|0_0|0.400000006|0_0|1|0
 	attN = bottom01,Null_0_1.01023996|-0.40880999|-1.39532006_0|-1|0_1.01023996|-0.40880999|-1.39532006_0|-1|0
 	attN = bottom02,Null_0_-1.01023996|-0.40880999|1.39532006_0|-1|0_-1.01023996|-0.40880999|1.39532006_0|-1|0
@@ -6233,75 +6247,5 @@ PART
 		hideFlow = False
 		isVisible = True
 		flowMode = Both
-	}
-}
-PART
-{
-	part = ladder1_4292622954
-	partName = Part
-	persistentId = 1521942571
-	pos = -0.331357121,3.71986294,1.36700296
-	attPos = 0,0,0.116406441
-	attPos0 = -0.0162324309,1.27832699,1.10631704
-	rot = 3.15083604E-09,-0.707106829,-3.15083604E-09,0.707106829
-	attRot = 0,0,0,1
-	attRot0 = -3.15083604E-09,0.707106829,3.15083604E-09,-0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 5
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 5
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,Luciole.LaunchPad.Mini_4292623358,Collider_Tour,0|0|0,1.25|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 }

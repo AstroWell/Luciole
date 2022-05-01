@@ -1,5 +1,5 @@
 ship = [ Luciole ] Target Vehicle
-version = 1.12.2
+version = 1.12.3
 description = 
 type = VAB
 size = 2.87972784,8.67376328,4.1536231
@@ -744,6 +744,21 @@ PART
 			{
 				unlockParts = 
 				unlockTechs = 
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
 			}
 			MechJebModuleCustomInfoWindow
 			{
