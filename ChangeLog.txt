@@ -1,7 +1,9 @@
-Luciole 1.9 [2022- - ]
+Luciole 1.9 [2022-07-25]
 ------------------------
 
 	- Updated Craft Files
+	- Add Localization config
+	- Add French Language
 	
 Luciole 1.8 [2021-08-12]
 ------------------------
