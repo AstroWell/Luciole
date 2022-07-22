@@ -4,6 +4,9 @@ Luciole 1.9 [2022-07-25]
 	- Updated Craft Files
 	- Add Localization config
 	- Add French Language
+	- New small 0.625m Booster
+	- New medium 0.625m Booster
+	- New long 0.625m Booster	
 	
 Luciole 1.8 [2021-08-12]
 ------------------------
