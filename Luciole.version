@@ -1,0 +1,31 @@
+{
+	"NAME": "Luciole",
+	"URL": "https://raw.githubusercontent.com/AstroWell/Luciole/master/Luciole.version",
+	"DOWNLOAD" : "https://github.com/AstroWell/Luciole/releases",
+	"GITHUB": {
+		"USERNAME": "AstroWell",
+		"REPOSITORY": "Luciole",
+		"ALLOW_PRE_RELEASE": false
+	},
+	"VERSION": {
+		"MAJOR": 1,
+		"MINOR": 9,
+		"PATCH": 0
+	},
+	"KSP_VERSION":
+    {
+        "MAJOR":1,
+        "MINOR":12,
+        "PATCH":5
+    },
+    "KSP_VERSION_MIN":{
+        "MAJOR":1,
+        "MINOR":10,
+        "PATCH":1
+    },
+    "KSP_VERSION_MAX":{
+        "MAJOR":1,
+        "MINOR":12,
+        "PATCH":99
+    }
+}
